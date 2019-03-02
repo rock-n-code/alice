@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "9999"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Alice::Alice"
-               BuildableName = "Alice.framework"
-               BlueprintName = "Alice"
+               BlueprintIdentifier = "023E57D9222B4AD10085CC85"
+               BuildableName = "Alice_watchOS.framework"
+               BlueprintName = "Alice watchOS"
                ReferencedContainer = "container:Alice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,17 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Alice::AliceTests"
-               BuildableName = "AliceTests.xctest"
-               BlueprintName = "AliceTests"
-               ReferencedContainer = "container:Alice.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -56,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Alice::Alice"
-            BuildableName = "Alice.framework"
-            BlueprintName = "Alice"
+            BlueprintIdentifier = "023E57D9222B4AD10085CC85"
+            BuildableName = "Alice_watchOS.framework"
+            BlueprintName = "Alice watchOS"
             ReferencedContainer = "container:Alice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "023E57D9222B4AD10085CC85"
+            BuildableName = "Alice_watchOS.framework"
+            BlueprintName = "Alice watchOS"
+            ReferencedContainer = "container:Alice.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

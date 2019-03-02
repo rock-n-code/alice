@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "9999"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Alice::Alice"
-               BuildableName = "Alice.framework"
-               BlueprintName = "Alice"
+               BlueprintIdentifier = "023E5794222B48AF0085CC85"
+               BuildableName = "Alice_iOS.framework"
+               BlueprintName = "Alice iOS"
+               ReferencedContainer = "container:Alice.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "023E579C222B48AF0085CC85"
+               BuildableName = "Alice iOSTests.xctest"
+               BlueprintName = "Alice iOSTests"
                ReferencedContainer = "container:Alice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,6 +40,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -33,13 +48,22 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Alice::AliceTests"
-               BuildableName = "AliceTests.xctest"
-               BlueprintName = "AliceTests"
+               BlueprintIdentifier = "023E579C222B48AF0085CC85"
+               BuildableName = "Alice iOSTests.xctest"
+               BlueprintName = "Alice iOSTests"
                ReferencedContainer = "container:Alice.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "023E5794222B48AF0085CC85"
+            BuildableName = "Alice_iOS.framework"
+            BlueprintName = "Alice iOS"
+            ReferencedContainer = "container:Alice.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -56,9 +80,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Alice::Alice"
-            BuildableName = "Alice.framework"
-            BlueprintName = "Alice"
+            BlueprintIdentifier = "023E5794222B48AF0085CC85"
+            BuildableName = "Alice_iOS.framework"
+            BlueprintName = "Alice iOS"
             ReferencedContainer = "container:Alice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,6 +95,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "023E5794222B48AF0085CC85"
+            BuildableName = "Alice_iOS.framework"
+            BlueprintName = "Alice iOS"
+            ReferencedContainer = "container:Alice.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
