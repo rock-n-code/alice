@@ -24,6 +24,16 @@
 		023E5777222B46120085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E576E222B46120085CC85 /* Alice.framework */; };
 		023E579E222B48AF0085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E5795222B48AF0085CC85 /* Alice.framework */; };
 		023E57BA222B4A550085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E57B1222B4A550085CC85 /* Alice.framework */; };
+		02A14648222C50980037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
+		02A14649222C50990037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
+		02A14650222C50E80037CF5E /* TestOneScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1464C222C50E80037CF5E /* TestOneScriptMock.swift */; };
+		02A14651222C50E80037CF5E /* TestOneScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1464C222C50E80037CF5E /* TestOneScriptMock.swift */; };
+		02A14652222C50E80037CF5E /* TestTwoScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1464D222C50E80037CF5E /* TestTwoScriptMock.swift */; };
+		02A14653222C50E80037CF5E /* TestTwoScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1464D222C50E80037CF5E /* TestTwoScriptMock.swift */; };
+		02A14654222C50E80037CF5E /* ScriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1464F222C50E80037CF5E /* ScriptTests.swift */; };
+		02A14655222C50E80037CF5E /* ScriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1464F222C50E80037CF5E /* ScriptTests.swift */; };
+		02A1465A222C51140037CF5E /* TestScript.command in Resources */ = {isa = PBXBuildFile; fileRef = 02A14659222C51140037CF5E /* TestScript.command */; };
+		02A1465C222C516B0037CF5E /* TestScript.command in Resources */ = {isa = PBXBuildFile; fileRef = 02A14659222C51140037CF5E /* TestScript.command */; };
 		OBJ_22 /* Alice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Alice.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* AliceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AliceTests.swift */; };
@@ -86,6 +96,11 @@
 		02A14637222C26500037CF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14639222C26500037CF5E /* Alice-macOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alice-macOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		02A1463D222C28B60037CF5E /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		02A14647222C50980037CF5E /* Script.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
+		02A1464C222C50E80037CF5E /* TestOneScriptMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOneScriptMock.swift; sourceTree = "<group>"; };
+		02A1464D222C50E80037CF5E /* TestTwoScriptMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTwoScriptMock.swift; sourceTree = "<group>"; };
+		02A1464F222C50E80037CF5E /* ScriptTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptTests.swift; sourceTree = "<group>"; };
+		02A14659222C51140037CF5E /* TestScript.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = TestScript.command; sourceTree = "<group>"; };
 		"Alice::Alice::Product" /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Alice::AliceTests::Product" /* AliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = AliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* AliceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceTests.swift; sourceTree = "<group>"; };
@@ -235,6 +250,7 @@
 		023E574C222B438E0085CC85 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				02A14645222C50980037CF5E /* Scripts */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -392,6 +408,7 @@
 		023E5761222B44DE0085CC85 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				02A1464A222C50E80037CF5E /* Scripts */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -602,6 +619,7 @@
 			children = (
 				02A14636222C26500037CF5E /* Identity */,
 				02A14638222C26500037CF5E /* Bridges */,
+				02A14658222C51140037CF5E /* Scripts */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -666,6 +684,57 @@
 			children = (
 			);
 			path = Feature;
+			sourceTree = "<group>";
+		};
+		02A14645222C50980037CF5E /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				02A14646222C50980037CF5E /* Protocols */,
+			);
+			name = Scripts;
+			path = Sources/Alice/macOS/Feature/Scripts;
+			sourceTree = SOURCE_ROOT;
+		};
+		02A14646222C50980037CF5E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				02A14647222C50980037CF5E /* Script.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		02A1464A222C50E80037CF5E /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				02A1464B222C50E80037CF5E /* Structs */,
+				02A1464E222C50E80037CF5E /* Protocols */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		02A1464B222C50E80037CF5E /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				02A1464C222C50E80037CF5E /* TestOneScriptMock.swift */,
+				02A1464D222C50E80037CF5E /* TestTwoScriptMock.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		02A1464E222C50E80037CF5E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				02A1464F222C50E80037CF5E /* ScriptTests.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		02A14658222C51140037CF5E /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				02A14659222C51140037CF5E /* TestScript.command */,
+			);
+			path = Scripts;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -921,6 +990,7 @@
 			buildPhases = (
 				OBJ_39 /* Sources */,
 				OBJ_42 /* Frameworks */,
+				02A1465B222C51640037CF5E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1040,6 +1110,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A1465A222C51140037CF5E /* TestScript.command in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1078,6 +1149,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		02A1465B222C51640037CF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A1465C222C516B0037CF5E /* TestScript.command in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1085,6 +1164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A14649222C50990037CF5E /* Script.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1092,6 +1172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A14651222C50E80037CF5E /* TestOneScriptMock.swift in Sources */,
+				02A14653222C50E80037CF5E /* TestTwoScriptMock.swift in Sources */,
+				02A14655222C50E80037CF5E /* ScriptTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1134,6 +1217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				02A14648222C50980037CF5E /* Script.swift in Sources */,
 				OBJ_22 /* Alice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1150,8 +1234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				02A14650222C50E80037CF5E /* TestOneScriptMock.swift in Sources */,
 				OBJ_40 /* AliceTests.swift in Sources */,
 				OBJ_41 /* XCTestManifests.swift in Sources */,
+				02A14652222C50E80037CF5E /* TestTwoScriptMock.swift in Sources */,
+				02A14654222C50E80037CF5E /* ScriptTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
