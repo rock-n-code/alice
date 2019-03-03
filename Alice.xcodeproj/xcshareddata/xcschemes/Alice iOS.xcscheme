@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "023E5794222B48AF0085CC85"
-               BuildableName = "Alice_iOS.framework"
+               BuildableName = "Alice.framework"
                BlueprintName = "Alice iOS"
                ReferencedContainer = "container:Alice.xcodeproj">
             </BuildableReference>
@@ -59,7 +59,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "023E5794222B48AF0085CC85"
-            BuildableName = "Alice_iOS.framework"
+            BuildableName = "Alice.framework"
             BlueprintName = "Alice iOS"
             ReferencedContainer = "container:Alice.xcodeproj">
          </BuildableReference>
@@ -81,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "023E5794222B48AF0085CC85"
-            BuildableName = "Alice_iOS.framework"
+            BuildableName = "Alice.framework"
             BlueprintName = "Alice iOS"
             ReferencedContainer = "container:Alice.xcodeproj">
          </BuildableReference>
@@ -99,7 +99,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "023E5794222B48AF0085CC85"
-            BuildableName = "Alice_iOS.framework"
+            BuildableName = "Alice.framework"
             BlueprintName = "Alice iOS"
             ReferencedContainer = "container:Alice.xcodeproj">
          </BuildableReference>

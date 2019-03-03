@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "023E57D9222B4AD10085CC85"
-               BuildableName = "Alice_watchOS.framework"
+               BuildableName = "Alice.framework"
                BlueprintName = "Alice watchOS"
                ReferencedContainer = "container:Alice.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "023E57D9222B4AD10085CC85"
-            BuildableName = "Alice_watchOS.framework"
+            BuildableName = "Alice.framework"
             BlueprintName = "Alice watchOS"
             ReferencedContainer = "container:Alice.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "023E57D9222B4AD10085CC85"
-            BuildableName = "Alice_watchOS.framework"
+            BuildableName = "Alice.framework"
             BlueprintName = "Alice watchOS"
             ReferencedContainer = "container:Alice.xcodeproj">
          </BuildableReference>
