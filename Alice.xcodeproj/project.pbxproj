@@ -21,9 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		023E5777222B46120085CC85 /* Alice_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E576E222B46120085CC85 /* Alice_macOS.framework */; };
-		023E579E222B48AF0085CC85 /* Alice_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E5795222B48AF0085CC85 /* Alice_iOS.framework */; };
-		023E57BA222B4A550085CC85 /* Alice_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E57B1222B4A550085CC85 /* Alice_tvOS.framework */; };
+		023E5777222B46120085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E576E222B46120085CC85 /* Alice.framework */; };
+		023E579E222B48AF0085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E5795222B48AF0085CC85 /* Alice.framework */; };
+		023E57BA222B4A550085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E57B1222B4A550085CC85 /* Alice.framework */; };
 		023E57E3222B4B230085CC85 /* Info_test_macOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 023E57E2222B4B230085CC85 /* Info_test_macOS.plist */; };
 		023E57E4222B4B2E0085CC85 /* Info_macOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 023E578F222B47A20085CC85 /* Info_macOS.plist */; };
 		023E57E6222B4B460085CC85 /* Info_iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 023E57E5222B4B460085CC85 /* Info_iOS.plist */; };
@@ -77,14 +77,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023E576E222B46120085CC85 /* Alice_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		023E576E222B46120085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E5776222B46120085CC85 /* Alice macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E578F222B47A20085CC85 /* Info_macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_macOS.plist; sourceTree = "<group>"; };
-		023E5795222B48AF0085CC85 /* Alice_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		023E5795222B48AF0085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E579D222B48AF0085CC85 /* Alice iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		023E57B1222B4A550085CC85 /* Alice_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		023E57B1222B4A550085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E57B9222B4A550085CC85 /* Alice tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		023E57DA222B4AD10085CC85 /* Alice_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		023E57DA222B4AD10085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E57E2222B4B230085CC85 /* Info_test_macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_test_macOS.plist; sourceTree = "<group>"; };
 		023E57E5222B4B460085CC85 /* Info_iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_iOS.plist; sourceTree = "<group>"; };
 		023E57E7222B4B500085CC85 /* Info_test_iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_test_iOS.plist; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				023E5777222B46120085CC85 /* Alice_macOS.framework in Frameworks */,
+				023E5777222B46120085CC85 /* Alice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				023E579E222B48AF0085CC85 /* Alice_iOS.framework in Frameworks */,
+				023E579E222B48AF0085CC85 /* Alice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				023E57BA222B4A550085CC85 /* Alice_tvOS.framework in Frameworks */,
+				023E57BA222B4A550085CC85 /* Alice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,13 +562,13 @@
 			children = (
 				"Alice::Alice::Product" /* Alice.framework */,
 				"Alice::AliceTests::Product" /* AliceTests.xctest */,
-				023E576E222B46120085CC85 /* Alice_macOS.framework */,
+				023E576E222B46120085CC85 /* Alice.framework */,
 				023E5776222B46120085CC85 /* Alice macOSTests.xctest */,
-				023E5795222B48AF0085CC85 /* Alice_iOS.framework */,
+				023E5795222B48AF0085CC85 /* Alice.framework */,
 				023E579D222B48AF0085CC85 /* Alice iOSTests.xctest */,
-				023E57B1222B4A550085CC85 /* Alice_tvOS.framework */,
+				023E57B1222B4A550085CC85 /* Alice.framework */,
 				023E57B9222B4A550085CC85 /* Alice tvOSTests.xctest */,
-				023E57DA222B4AD10085CC85 /* Alice_watchOS.framework */,
+				023E57DA222B4AD10085CC85 /* Alice.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -656,7 +656,7 @@
 			);
 			name = "Alice macOS";
 			productName = "Alice macOS";
-			productReference = 023E576E222B46120085CC85 /* Alice_macOS.framework */;
+			productReference = 023E576E222B46120085CC85 /* Alice.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		023E5775222B46120085CC85 /* Alice macOSTests */ = {
@@ -692,7 +692,7 @@
 			);
 			name = "Alice iOS";
 			productName = "Alice iOS";
-			productReference = 023E5795222B48AF0085CC85 /* Alice_iOS.framework */;
+			productReference = 023E5795222B48AF0085CC85 /* Alice.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		023E579C222B48AF0085CC85 /* Alice iOSTests */ = {
@@ -728,7 +728,7 @@
 			);
 			name = "Alice tvOS";
 			productName = "Alive tvOS";
-			productReference = 023E57B1222B4A550085CC85 /* Alice_tvOS.framework */;
+			productReference = 023E57B1222B4A550085CC85 /* Alice.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		023E57B8222B4A550085CC85 /* Alice tvOSTests */ = {
@@ -764,7 +764,7 @@
 			);
 			name = "Alice watchOS";
 			productName = "Alice watchOS";
-			productReference = 023E57DA222B4AD10085CC85 /* Alice_watchOS.framework */;
+			productReference = 023E57DA222B4AD10085CC85 /* Alice.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		"Alice::Alice" /* Alice */ = {
@@ -825,10 +825,12 @@
 				TargetAttributes = {
 					023E576D222B46120085CC85 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					023E5775222B46120085CC85 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Manual;
 					};
 					023E5794222B48AF0085CC85 = {
@@ -849,6 +851,7 @@
 					};
 					023E57D9222B4AD10085CC85 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -1103,10 +1106,12 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockncode.alice.macos;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Alice;
+				PRODUCT_NAME = Alice;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1171,7 +1176,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockncode.alice.macos;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Alice;
+				PRODUCT_NAME = Alice;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1183,6 +1189,7 @@
 		023E5783222B46120085CC85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1234,6 +1241,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -1241,6 +1249,7 @@
 		023E5784222B46120085CC85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1352,7 +1361,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockncode.alice.ios;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Alice;
+				PRODUCT_NAME = Alice;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1421,7 +1431,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockncode.alice.ios;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Alice;
+				PRODUCT_NAME = Alice;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1609,7 +1620,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockncode.alice.tvos;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Alice;
+				PRODUCT_NAME = Alice;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1678,7 +1690,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockncode.alice.tvos;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Alice;
+				PRODUCT_NAME = Alice;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1866,11 +1879,13 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockncode.alice.watchos;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Alice;
+				PRODUCT_NAME = Alice;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1936,7 +1951,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockncode.alice.watchos;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Alice;
+				PRODUCT_NAME = Alice;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
