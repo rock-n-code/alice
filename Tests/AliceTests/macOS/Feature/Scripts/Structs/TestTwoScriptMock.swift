@@ -8,11 +8,7 @@
 import Foundation
 import Alice
 
-internal struct TestTwoScriptMock {}
-
-// MARK: - Script
-
-extension TestTwoScriptMock: Script {
+internal struct TestTwoScriptMock: Script {
 	
 	// MARK: Properties
 	
