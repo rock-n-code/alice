@@ -2,14 +2,21 @@ import XCTest
 @testable import Alice
 
 final class AliceTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(Alice().text, "Hello, World!")
-    }
+	
+	// MARK: Static
+	
+	static var allTests = [
+//		("testExample", testExample),
+	]
+	
+	// MARK: Setup
+	
+	override func setUp() {
+		super.setUp()
+	}
+	
+	override func tearDown() {
+		super.tearDown()
+	}
 
-    static var allTests = [
-        ("testExample", testExample),
-    ]
 }

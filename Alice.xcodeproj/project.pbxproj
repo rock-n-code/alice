@@ -24,8 +24,6 @@
 		023E5777222B46120085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E576E222B46120085CC85 /* Alice.framework */; };
 		023E579E222B48AF0085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E5795222B48AF0085CC85 /* Alice.framework */; };
 		023E57BA222B4A550085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E57B1222B4A550085CC85 /* Alice.framework */; };
-		023E57FE222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 023E57FD222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h */; };
-		023E57FF222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 023E57FD222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h */; };
 		OBJ_22 /* Alice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Alice.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* AliceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AliceTests.swift */; };
@@ -74,19 +72,20 @@
 /* Begin PBXFileReference section */
 		023E576E222B46120085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E5776222B46120085CC85 /* Alice macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		023E578F222B47A20085CC85 /* Info_macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_macOS.plist; sourceTree = "<group>"; };
 		023E5795222B48AF0085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E579D222B48AF0085CC85 /* Alice iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E57B1222B4A550085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E57B9222B4A550085CC85 /* Alice tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E57DA222B4AD10085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		023E57E2222B4B230085CC85 /* Info_test_macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_test_macOS.plist; sourceTree = "<group>"; };
-		023E57E5222B4B460085CC85 /* Info_iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_iOS.plist; sourceTree = "<group>"; };
-		023E57E7222B4B500085CC85 /* Info_test_iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_test_iOS.plist; sourceTree = "<group>"; };
-		023E57E9222B4B5E0085CC85 /* Info_tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_tvOS.plist; sourceTree = "<group>"; };
-		023E57EB222B4B690085CC85 /* Info_test_tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_test_tvOS.plist; sourceTree = "<group>"; };
-		023E57ED222B4B740085CC85 /* Info_watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_watchOS.plist; sourceTree = "<group>"; };
-		023E57FD222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Alice-macOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		02A1461D222C258C0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A14621222C259D0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A14626222C25B30037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A1462A222C25BF0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A1462F222C26500037CF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A14634222C26500037CF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A14637222C26500037CF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A14639222C26500037CF5E /* Alice-macOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alice-macOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		02A1463D222C28B60037CF5E /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		"Alice::Alice::Product" /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Alice::AliceTests::Product" /* AliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = AliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* AliceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceTests.swift; sourceTree = "<group>"; };
@@ -369,6 +368,7 @@
 		023E575E222B44B90085CC85 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				02A1463D222C28B60037CF5E /* LinuxMain.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -448,96 +448,224 @@
 		023E5785222B46E20085CC85 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				023E5786222B47000085CC85 /* All */,
-				023E5787222B470A0085CC85 /* macOS */,
-				023E5788222B47110085CC85 /* iOS */,
-				023E5789222B47170085CC85 /* tvOS */,
-				023E578A222B471D0085CC85 /* watchOS */,
+				02A14619222C24BC0037CF5E /* Alice */,
+				02A1461A222C24C40037CF5E /* AliceTests */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		023E5786222B47000085CC85 /* All */ = {
+		02A14619222C24BC0037CF5E /* Alice */ = {
+			isa = PBXGroup;
+			children = (
+				02A1462C222C26270037CF5E /* All */,
+				02A1461F222C259D0037CF5E /* macOS */,
+				02A1461B222C258C0037CF5E /* iOS */,
+				02A14624222C25B30037CF5E /* tvOS */,
+				02A14628222C25BF0037CF5E /* watchOS */,
+				02A1463E222C2A600037CF5E /* Linux */,
+			);
+			path = Alice;
+			sourceTree = "<group>";
+		};
+		02A1461A222C24C40037CF5E /* AliceTests */ = {
+			isa = PBXGroup;
+			children = (
+				02A14630222C26500037CF5E /* All */,
+				02A14635222C26500037CF5E /* macOS */,
+				02A14632222C26500037CF5E /* iOS */,
+				02A1462D222C26500037CF5E /* tvOS */,
+				02A14631222C26500037CF5E /* watchOS */,
+				02A14641222C2A7D0037CF5E /* Linux */,
+			);
+			path = AliceTests;
+			sourceTree = "<group>";
+		};
+		02A1461B222C258C0037CF5E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				02A1461C222C258C0037CF5E /* Identity */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		02A1461C222C258C0037CF5E /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				02A1461D222C258C0037CF5E /* Info.plist */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
+		02A1461F222C259D0037CF5E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				02A14620222C259D0037CF5E /* Identity */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		02A14620222C259D0037CF5E /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				02A14621222C259D0037CF5E /* Info.plist */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
+		02A14624222C25B30037CF5E /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				02A14625222C25B30037CF5E /* Identity */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		02A14625222C25B30037CF5E /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				02A14626222C25B30037CF5E /* Info.plist */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
+		02A14628222C25BF0037CF5E /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				02A14629222C25BF0037CF5E /* Identity */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		02A14629222C25BF0037CF5E /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				02A1462A222C25BF0037CF5E /* Info.plist */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
+		02A1462C222C26270037CF5E /* All */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = All;
 			sourceTree = "<group>";
 		};
-		023E5787222B470A0085CC85 /* macOS */ = {
+		02A1462D222C26500037CF5E /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				023E57FC222B5B4E0085CC85 /* Bridges */,
-				023E578B222B47670085CC85 /* Identity */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		023E5788222B47110085CC85 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				023E578C222B476F0085CC85 /* Identity */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		023E5789222B47170085CC85 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				023E578D222B47750085CC85 /* Identity */,
+				02A1462E222C26500037CF5E /* Identity */,
 			);
 			path = tvOS;
 			sourceTree = "<group>";
 		};
-		023E578A222B471D0085CC85 /* watchOS */ = {
+		02A1462E222C26500037CF5E /* Identity */ = {
 			isa = PBXGroup;
 			children = (
-				023E578E222B477D0085CC85 /* Identity */,
+				02A1462F222C26500037CF5E /* Info.plist */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
+		02A14630222C26500037CF5E /* All */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
+		02A14631222C26500037CF5E /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = watchOS;
 			sourceTree = "<group>";
 		};
-		023E578B222B47670085CC85 /* Identity */ = {
+		02A14632222C26500037CF5E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				023E57E2222B4B230085CC85 /* Info_test_macOS.plist */,
-				023E578F222B47A20085CC85 /* Info_macOS.plist */,
+				02A14633222C26500037CF5E /* Identity */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		02A14633222C26500037CF5E /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				02A14634222C26500037CF5E /* Info.plist */,
 			);
 			path = Identity;
 			sourceTree = "<group>";
 		};
-		023E578C222B476F0085CC85 /* Identity */ = {
+		02A14635222C26500037CF5E /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				023E57E7222B4B500085CC85 /* Info_test_iOS.plist */,
-				023E57E5222B4B460085CC85 /* Info_iOS.plist */,
+				02A14636222C26500037CF5E /* Identity */,
+				02A14638222C26500037CF5E /* Bridges */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		02A14636222C26500037CF5E /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				02A14637222C26500037CF5E /* Info.plist */,
 			);
 			path = Identity;
 			sourceTree = "<group>";
 		};
-		023E578D222B47750085CC85 /* Identity */ = {
+		02A14638222C26500037CF5E /* Bridges */ = {
 			isa = PBXGroup;
 			children = (
-				023E57EB222B4B690085CC85 /* Info_test_tvOS.plist */,
-				023E57E9222B4B5E0085CC85 /* Info_tvOS.plist */,
-			);
-			path = Identity;
-			sourceTree = "<group>";
-		};
-		023E578E222B477D0085CC85 /* Identity */ = {
-			isa = PBXGroup;
-			children = (
-				023E57ED222B4B740085CC85 /* Info_watchOS.plist */,
-			);
-			path = Identity;
-			sourceTree = "<group>";
-		};
-		023E57FC222B5B4E0085CC85 /* Bridges */ = {
-			isa = PBXGroup;
-			children = (
-				023E57FD222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h */,
+				02A14639222C26500037CF5E /* Alice-macOSTests-Bridging-Header.h */,
 			);
 			path = Bridges;
+			sourceTree = "<group>";
+		};
+		02A1463E222C2A600037CF5E /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				02A1463F222C2A6A0037CF5E /* Common */,
+				02A14640222C2A700037CF5E /* Feature */,
+			);
+			path = Linux;
+			sourceTree = "<group>";
+		};
+		02A1463F222C2A6A0037CF5E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		02A14640222C2A700037CF5E /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		02A14641222C2A7D0037CF5E /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				02A14642222C2A850037CF5E /* Common */,
+				02A14643222C2A8A0037CF5E /* Feature */,
+			);
+			path = Linux;
+			sourceTree = "<group>";
+		};
+		02A14642222C2A850037CF5E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		02A14643222C2A8A0037CF5E /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feature;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -618,7 +746,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				023E57FE222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,7 +767,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				023E57FF222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,7 +1238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Resources/macOS/Identity/Info_macOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Alice/macOS/Identity/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1182,7 +1308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Resources/macOS/Identity/Info_macOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Alice/macOS/Identity/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1245,7 +1371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/macOS/Identity/Info_test_macOS.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/AliceTests/macOS/Identity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1253,7 +1379,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "Resources/macOS/Bridges/Alice-macOSTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Resources/AliceTests/macOS/Bridges/Alice-macOSTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
@@ -1306,14 +1432,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/macOS/Identity/Info_test_macOS.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/AliceTests/macOS/Identity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockncode.alice.macos.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Resources/macOS/Bridges/Alice-macOSTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Resources/AliceTests/macOS/Bridges/Alice-macOSTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -1368,7 +1494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Resources/macOS/Identity/Info_macOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Alice/iOS/Identity/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1438,7 +1564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Resources/macOS/Identity/Info_macOS.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Alice/iOS/Identity/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1503,7 +1629,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/iOS/Integrity/Info_test_iOS.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/AliceTests/iOS/Integrity/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1563,7 +1689,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/iOS/Integrity/Info_test_iOS.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/AliceTests/iOS/Integrity/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1628,7 +1754,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/tvOS/Identity/Info_tvOS.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Alice/tvOS/Identity/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1698,7 +1824,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/tvOS/Identity/Info_tvOS.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Alice/tvOS/Identity/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1763,7 +1889,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/tvOS/Identity/Info_test_tvOS.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/AliceTests/tvOS/Identity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1823,7 +1949,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/tvOS/Identity/Info_test_tvOS.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/AliceTests/tvOS/Identity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -1889,7 +2015,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/WatchOS/Identity/Info_watchOS.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Alice/watchOS/Identity/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1961,7 +2087,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Resources/WatchOS/Identity/Info_watchOS.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Alice/watchOS/Identity/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
