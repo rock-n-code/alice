@@ -5,9 +5,7 @@ final class AliceTests: XCTestCase {
 	
 	// MARK: Static
 	
-	static var allTests = [
-//		("testExample", testExample),
-	]
+//	static var allTests = [("testExample", testExample),]
 	
 	// MARK: Setup
 	
