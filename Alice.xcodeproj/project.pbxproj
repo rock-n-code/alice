@@ -31,6 +31,8 @@
 		023E57EA222B4B5E0085CC85 /* Info_tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 023E57E9222B4B5E0085CC85 /* Info_tvOS.plist */; };
 		023E57EC222B4B690085CC85 /* Info_test_tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 023E57EB222B4B690085CC85 /* Info_test_tvOS.plist */; };
 		023E57EE222B4B740085CC85 /* Info_watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 023E57ED222B4B740085CC85 /* Info_watchOS.plist */; };
+		023E57FE222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 023E57FD222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h */; };
+		023E57FF222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 023E57FD222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h */; };
 		OBJ_22 /* Alice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Alice.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* AliceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AliceTests.swift */; };
@@ -91,6 +93,7 @@
 		023E57E9222B4B5E0085CC85 /* Info_tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_tvOS.plist; sourceTree = "<group>"; };
 		023E57EB222B4B690085CC85 /* Info_test_tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_test_tvOS.plist; sourceTree = "<group>"; };
 		023E57ED222B4B740085CC85 /* Info_watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_watchOS.plist; sourceTree = "<group>"; };
+		023E57FD222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Alice-macOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		"Alice::Alice::Product" /* Alice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Alice::AliceTests::Product" /* AliceTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* AliceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceTests.swift; sourceTree = "<group>"; };
@@ -471,6 +474,7 @@
 		023E5787222B470A0085CC85 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				023E57FC222B5B4E0085CC85 /* Bridges */,
 				023E578B222B47670085CC85 /* Identity */,
 			);
 			path = macOS;
@@ -533,6 +537,14 @@
 				023E57ED222B4B740085CC85 /* Info_watchOS.plist */,
 			);
 			path = Identity;
+			sourceTree = "<group>";
+		};
+		023E57FC222B5B4E0085CC85 /* Bridges */ = {
+			isa = PBXGroup;
+			children = (
+				023E57FD222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h */,
+			);
+			path = Bridges;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -614,6 +626,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023E57FE222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +648,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023E57FF222B5B4E0085CC85 /* Alice-macOSTests-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1241,6 +1255,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Resources/macOS/Bridges/Alice-macOSTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
@@ -1300,6 +1315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockncode.alice.test.macos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Resources/macOS/Bridges/Alice-macOSTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
