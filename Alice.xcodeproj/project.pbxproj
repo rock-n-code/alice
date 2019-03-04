@@ -48,6 +48,9 @@
 		026D3A22222D44E800C3E905 /* IntExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A1F222D44E800C3E905 /* IntExtensionsTests.swift */; };
 		026D3A23222D44E800C3E905 /* IntExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A1F222D44E800C3E905 /* IntExtensionsTests.swift */; };
 		026D3A24222D44E800C3E905 /* IntExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A1F222D44E800C3E905 /* IntExtensionsTests.swift */; };
+		026D3A27222D996600C3E905 /* AliceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AliceTests.swift */; };
+		026D3A28222D997200C3E905 /* AliceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AliceTests.swift */; };
+		026D3A29222D997300C3E905 /* AliceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AliceTests.swift */; };
 		02A14648222C50980037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A14649222C50990037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A14650222C50E80037CF5E /* TestOneScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1464C222C50E80037CF5E /* TestOneScriptMock.swift */; };
@@ -69,7 +72,6 @@
 		OBJ_22 /* Alice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Alice.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* AliceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AliceTests.swift */; };
-		OBJ_41 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
 		OBJ_43 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Alice::Alice::Product" /* Alice.framework */; };
 /* End PBXBuildFile section */
 
@@ -413,6 +415,7 @@
 			children = (
 				023E575E222B44B90085CC85 /* Common */,
 				023E575D222B44B20085CC85 /* Feature */,
+				026D3A25222D45F800C3E905 /* Manifests */,
 			);
 			path = Linux;
 			sourceTree = "<group>";
@@ -443,7 +446,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_12 /* AliceTests.swift */,
-				OBJ_13 /* XCTestManifests.swift */,
 				026D3A10222CB32400C3E905 /* Protocols */,
 				026D3A18222D442700C3E905 /* Extensions */,
 			);
@@ -554,6 +556,14 @@
 				026D3A1F222D44E800C3E905 /* IntExtensionsTests.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		026D3A25222D45F800C3E905 /* Manifests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			path = Manifests;
 			sourceTree = "<group>";
 		};
 		02A14619222C24BC0037CF5E /* Alice */ = {
@@ -1284,6 +1294,7 @@
 				02A14655222C50E80037CF5E /* ScriptTests.swift in Sources */,
 				026D3A13222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
 				02A14666222C54500037CF5E /* ScriptableOneMock.swift in Sources */,
+				026D3A27222D996600C3E905 /* AliceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1303,6 +1314,7 @@
 			files = (
 				026D3A14222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
 				026D3A22222D44E800C3E905 /* IntExtensionsTests.swift in Sources */,
+				026D3A28222D997200C3E905 /* AliceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1322,6 +1334,7 @@
 			files = (
 				026D3A15222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
 				026D3A23222D44E800C3E905 /* IntExtensionsTests.swift in Sources */,
+				026D3A29222D997300C3E905 /* AliceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1366,7 +1379,6 @@
 				OBJ_40 /* AliceTests.swift in Sources */,
 				026D3A20222D44E800C3E905 /* IntExtensionsTests.swift in Sources */,
 				02A14665222C54500037CF5E /* ScriptableOneMock.swift in Sources */,
-				OBJ_41 /* XCTestManifests.swift in Sources */,
 				026D3A12222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
 				02A14652222C50E80037CF5E /* TestTwoScriptMock.swift in Sources */,
 				02A14654222C50E80037CF5E /* ScriptTests.swift in Sources */,
