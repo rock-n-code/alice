@@ -29,6 +29,16 @@
 		026D3A01222CA4F900C3E905 /* CharacterSpecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D39FE222CA4F900C3E905 /* CharacterSpecial.swift */; };
 		026D3A02222CA4F900C3E905 /* CharacterSpecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D39FE222CA4F900C3E905 /* CharacterSpecial.swift */; };
 		026D3A03222CA4F900C3E905 /* CharacterSpecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D39FE222CA4F900C3E905 /* CharacterSpecial.swift */; };
+		026D3A0B222CB30900C3E905 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A0A222CB30900C3E905 /* Identifiable.swift */; };
+		026D3A0C222CB30900C3E905 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A0A222CB30900C3E905 /* Identifiable.swift */; };
+		026D3A0D222CB30900C3E905 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A0A222CB30900C3E905 /* Identifiable.swift */; };
+		026D3A0E222CB30900C3E905 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A0A222CB30900C3E905 /* Identifiable.swift */; };
+		026D3A0F222CB30900C3E905 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A0A222CB30900C3E905 /* Identifiable.swift */; };
+		026D3A12222CB32400C3E905 /* IdentifiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A11222CB32400C3E905 /* IdentifiableTests.swift */; };
+		026D3A13222CB32400C3E905 /* IdentifiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A11222CB32400C3E905 /* IdentifiableTests.swift */; };
+		026D3A14222CB32400C3E905 /* IdentifiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A11222CB32400C3E905 /* IdentifiableTests.swift */; };
+		026D3A15222CB32400C3E905 /* IdentifiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A11222CB32400C3E905 /* IdentifiableTests.swift */; };
+		026D3A16222CB32400C3E905 /* IdentifiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A11222CB32400C3E905 /* IdentifiableTests.swift */; };
 		02A14648222C50980037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A14649222C50990037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A14650222C50E80037CF5E /* TestOneScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1464C222C50E80037CF5E /* TestOneScriptMock.swift */; };
@@ -101,6 +111,8 @@
 		023E57B9222B4A550085CC85 /* Alice tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E57DA222B4AD10085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		026D39FE222CA4F900C3E905 /* CharacterSpecial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSpecial.swift; sourceTree = "<group>"; };
+		026D3A0A222CB30900C3E905 /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		026D3A11222CB32400C3E905 /* IdentifiableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableTests.swift; sourceTree = "<group>"; };
 		02A1461D222C258C0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14621222C259D0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14626222C25B30037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -246,7 +258,8 @@
 		023E5749222B43640085CC85 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* Alice.swift */,
+				026D39FD222CA4A000C3E905 /* Constants */,
+				026D3A09222CB30900C3E905 /* Protocols */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -261,7 +274,6 @@
 		023E574B222B43880085CC85 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				026D39FD222CA4A000C3E905 /* Constants */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -420,6 +432,7 @@
 			children = (
 				OBJ_12 /* AliceTests.swift */,
 				OBJ_13 /* XCTestManifests.swift */,
+				026D3A10222CB32400C3E905 /* Protocols */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -496,6 +509,22 @@
 				026D39FE222CA4F900C3E905 /* CharacterSpecial.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		026D3A09222CB30900C3E905 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				026D3A0A222CB30900C3E905 /* Identifiable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		026D3A10222CB32400C3E905 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				026D3A11222CB32400C3E905 /* IdentifiableTests.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		02A14619222C24BC0037CF5E /* Alice */ = {
@@ -836,6 +865,7 @@
 		OBJ_8 /* Alice */ = {
 			isa = PBXGroup;
 			children = (
+				OBJ_9 /* Alice.swift */,
 				023E5744222B43260085CC85 /* All */,
 				023E5745222B432D0085CC85 /* macOS */,
 				023E5746222B43330085CC85 /* iOS */,
@@ -1206,6 +1236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A1465F222C53290037CF5E /* Scriptable.swift in Sources */,
+				026D3A0C222CB30900C3E905 /* Identifiable.swift in Sources */,
 				026D3A00222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				02A14649222C50990037CF5E /* Script.swift in Sources */,
 			);
@@ -1220,6 +1251,7 @@
 				02A14653222C50E80037CF5E /* TestTwoScriptMock.swift in Sources */,
 				02A14669222C56120037CF5E /* ScriptableTwoMock.swift in Sources */,
 				02A14655222C50E80037CF5E /* ScriptTests.swift in Sources */,
+				026D3A13222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
 				02A14666222C54500037CF5E /* ScriptableOneMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1229,6 +1261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				026D3A01222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
+				026D3A0D222CB30900C3E905 /* Identifiable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1236,6 +1269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026D3A14222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1244,6 +1278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				026D3A02222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
+				026D3A0E222CB30900C3E905 /* Identifiable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1251,6 +1286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026D3A15222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1259,6 +1295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				026D3A03222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
+				026D3A0F222CB30900C3E905 /* Identifiable.swift in Sources */,
+				026D3A16222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1269,6 +1307,7 @@
 				02A14648222C50980037CF5E /* Script.swift in Sources */,
 				026D39FF222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				OBJ_22 /* Alice.swift in Sources */,
+				026D3A0B222CB30900C3E905 /* Identifiable.swift in Sources */,
 				02A1465E222C53290037CF5E /* Scriptable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1290,6 +1329,7 @@
 				OBJ_40 /* AliceTests.swift in Sources */,
 				02A14665222C54500037CF5E /* ScriptableOneMock.swift in Sources */,
 				OBJ_41 /* XCTestManifests.swift in Sources */,
+				026D3A12222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
 				02A14652222C50E80037CF5E /* TestTwoScriptMock.swift in Sources */,
 				02A14654222C50E80037CF5E /* ScriptTests.swift in Sources */,
 				02A14668222C56120037CF5E /* ScriptableTwoMock.swift in Sources */,
