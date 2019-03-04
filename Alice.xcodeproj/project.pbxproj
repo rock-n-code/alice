@@ -354,6 +354,7 @@
 			children = (
 				023E575E222B44B90085CC85 /* Common */,
 				023E575D222B44B20085CC85 /* Feature */,
+				026D3A26222D988100C3E905 /* Manifests */,
 			);
 			path = Linux;
 			sourceTree = "<group>";
@@ -384,7 +385,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_12 /* AliceTests.swift */,
-				OBJ_13 /* XCTestManifests.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -452,6 +452,14 @@
 				02A1461A222C24C40037CF5E /* AliceTests */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		026D3A26222D988100C3E905 /* Manifests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			path = Manifests;
 			sourceTree = "<group>";
 		};
 		02A14619222C24BC0037CF5E /* Alice */ = {

@@ -5,7 +5,7 @@ final class AliceTests: XCTestCase {
 	
 	// MARK: Static
 	
-//	static var allTests = [("testExample", testExample),]
+	static var allTests = [("testExample", testExample),]
 	
 	// MARK: Setup
 	
@@ -15,6 +15,12 @@ final class AliceTests: XCTestCase {
 	
 	override func tearDown() {
 		super.tearDown()
+	}
+	
+	// Functions tests
+	
+	func testExample() {
+		XCTFail()
 	}
 
 }
