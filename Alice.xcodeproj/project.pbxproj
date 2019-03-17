@@ -1089,49 +1089,53 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 9999;
+				LastUpgradeCheck = 1020;
 				TargetAttributes = {
 					023E576D222B46120085CC85 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					023E5775222B46120085CC85 = {
 						CreatedOnToolsVersion = 10.1;
 						DevelopmentTeam = 7FMNM89WKG;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					023E5794222B48AF0085CC85 = {
 						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 7FMNM89WKG;
 						LastSwiftMigration = 1010;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					023E579C222B48AF0085CC85 = {
 						CreatedOnToolsVersion = 10.1;
 						DevelopmentTeam = 7FMNM89WKG;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					023E57B0222B4A550085CC85 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					023E57B8222B4A550085CC85 = {
 						CreatedOnToolsVersion = 10.1;
 						DevelopmentTeam = 7FMNM89WKG;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Manual;
 					};
 					023E57D9222B4AD10085CC85 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					"Alice::Alice" = {
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					"Alice::AliceTests" = {
 						DevelopmentTeam = 7FMNM89WKG;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					"Alice::SwiftPMPackageDescription" = {
