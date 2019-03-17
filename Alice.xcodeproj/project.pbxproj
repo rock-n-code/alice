@@ -134,7 +134,6 @@
 		02A14634222C26500037CF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14637222C26500037CF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14639222C26500037CF5E /* Alice-macOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alice-macOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		02A1463D222C28B60037CF5E /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		02A14647222C50980037CF5E /* Script.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
 		02A1464C222C50E80037CF5E /* TestOneScriptMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOneScriptMock.swift; sourceTree = "<group>"; };
 		02A1464D222C50E80037CF5E /* TestTwoScriptMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTwoScriptMock.swift; sourceTree = "<group>"; };
@@ -555,14 +554,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		026D3A25222D45F800C3E905 /* Manifests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_13 /* XCTestManifests.swift */,
-			);
-			path = Manifests;
-			sourceTree = "<group>";
-		};
 		02A14619222C24BC0037CF5E /* Alice */ = {
 			isa = PBXGroup;
 			children = (
@@ -744,20 +735,6 @@
 			children = (
 			);
 			path = Linux;
-			sourceTree = "<group>";
-		};
-		02A14642222C2A850037CF5E /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		02A14643222C2A8A0037CF5E /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Feature;
 			sourceTree = "<group>";
 		};
 		02A14645222C50980037CF5E /* Scripts */ = {

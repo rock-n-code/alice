@@ -8,7 +8,7 @@
 
 import XCTest
 
-@testable import Kashmir
+@testable import Alice
 
 class IntExtensionsTests: XCTestCase {
 	
