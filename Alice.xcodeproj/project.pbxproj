@@ -223,13 +223,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		023E5744222B43260085CC85 /* All */ = {
+		023E5744222B43260085CC85 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				023E5749222B43640085CC85 /* Common */,
 				023E574A222B436E0085CC85 /* Feature */,
 			);
-			path = All;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		023E5745222B432D0085CC85 /* macOS */ = {
@@ -342,13 +342,13 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		023E5753222B44040085CC85 /* All */ = {
+		023E5753222B44040085CC85 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				023E5760222B44D60085CC85 /* Common */,
 				023E575F222B44CF0085CC85 /* Feature */,
 			);
-			path = All;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		023E5754222B440A0085CC85 /* macOS */ = {
@@ -415,7 +415,6 @@
 			children = (
 				023E575E222B44B90085CC85 /* Common */,
 				023E575D222B44B20085CC85 /* Feature */,
-				026D3A25222D45F800C3E905 /* Manifests */,
 			);
 			path = Linux;
 			sourceTree = "<group>";
@@ -430,7 +429,6 @@
 		023E575E222B44B90085CC85 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				02A1463D222C28B60037CF5E /* LinuxMain.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -445,7 +443,6 @@
 		023E5760222B44D60085CC85 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* AliceTests.swift */,
 				026D3A10222CB32400C3E905 /* Protocols */,
 				026D3A18222D442700C3E905 /* Extensions */,
 			);
@@ -569,7 +566,7 @@
 		02A14619222C24BC0037CF5E /* Alice */ = {
 			isa = PBXGroup;
 			children = (
-				02A1462C222C26270037CF5E /* All */,
+				02A1462C222C26270037CF5E /* Shared */,
 				02A1461F222C259D0037CF5E /* macOS */,
 				02A1461B222C258C0037CF5E /* iOS */,
 				02A14624222C25B30037CF5E /* tvOS */,
@@ -582,7 +579,7 @@
 		02A1461A222C24C40037CF5E /* AliceTests */ = {
 			isa = PBXGroup;
 			children = (
-				02A14630222C26500037CF5E /* All */,
+				02A14630222C26500037CF5E /* Shared */,
 				02A14635222C26500037CF5E /* macOS */,
 				02A14632222C26500037CF5E /* iOS */,
 				02A1462D222C26500037CF5E /* tvOS */,
@@ -656,11 +653,11 @@
 			path = Identity;
 			sourceTree = "<group>";
 		};
-		02A1462C222C26270037CF5E /* All */ = {
+		02A1462C222C26270037CF5E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = All;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		02A1462D222C26500037CF5E /* tvOS */ = {
@@ -679,11 +676,11 @@
 			path = Identity;
 			sourceTree = "<group>";
 		};
-		02A14630222C26500037CF5E /* All */ = {
+		02A14630222C26500037CF5E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = All;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		02A14631222C26500037CF5E /* watchOS */ = {
@@ -738,31 +735,13 @@
 		02A1463E222C2A600037CF5E /* Linux */ = {
 			isa = PBXGroup;
 			children = (
-				02A1463F222C2A6A0037CF5E /* Common */,
-				02A14640222C2A700037CF5E /* Feature */,
 			);
 			path = Linux;
-			sourceTree = "<group>";
-		};
-		02A1463F222C2A6A0037CF5E /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		02A14640222C2A700037CF5E /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Feature;
 			sourceTree = "<group>";
 		};
 		02A14641222C2A7D0037CF5E /* Linux */ = {
 			isa = PBXGroup;
 			children = (
-				02A14642222C2A850037CF5E /* Common */,
-				02A14643222C2A8A0037CF5E /* Feature */,
 			);
 			path = Linux;
 			sourceTree = "<group>";
@@ -855,12 +834,14 @@
 		OBJ_11 /* AliceTests */ = {
 			isa = PBXGroup;
 			children = (
-				023E5753222B44040085CC85 /* All */,
+				023E5753222B44040085CC85 /* Shared */,
 				023E5754222B440A0085CC85 /* macOS */,
 				023E5755222B44130085CC85 /* iOS */,
 				023E5756222B44190085CC85 /* tvOS */,
 				023E5757222B441F0085CC85 /* watchOS */,
 				023E575C222B44AA0085CC85 /* Linux */,
+				OBJ_12 /* AliceTests.swift */,
+				OBJ_13 /* XCTestManifests.swift */,
 			);
 			name = AliceTests;
 			path = Tests/AliceTests;
@@ -904,13 +885,13 @@
 		OBJ_8 /* Alice */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* Alice.swift */,
-				023E5744222B43260085CC85 /* All */,
+				023E5744222B43260085CC85 /* Shared */,
 				023E5745222B432D0085CC85 /* macOS */,
 				023E5746222B43330085CC85 /* iOS */,
 				023E5747222B433B0085CC85 /* tvOS */,
 				023E5748222B43460085CC85 /* watchOS */,
 				023E5759222B44860085CC85 /* Linux */,
+				OBJ_9 /* Alice.swift */,
 			);
 			name = Alice;
 			path = Sources/Alice;
@@ -1186,6 +1167,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = OBJ_5;

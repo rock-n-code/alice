@@ -1,6 +1,6 @@
 import XCTest
 
-#if os(Linux)
+#if !canImport(ObjectiveC)
 public func allTests() -> [XCTestCaseEntry] {
     return [testCase(IdentifiableTests.allTests),
 			testCase(IntExtensionsTests.allTests),
