@@ -1,7 +1,7 @@
 import XCTest
 
-#if os(Linux)
+#if !canImport(ObjectiveC)
 public func allTests() -> [XCTestCaseEntry] {
-    return [testCase(AliceTests.allTests),]
+	return [testCase(TestTests.allTests),]
 }
 #endif
