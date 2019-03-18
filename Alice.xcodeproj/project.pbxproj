@@ -342,6 +342,7 @@
 			children = (
 				023E5760222B44D60085CC85 /* Common */,
 				023E575F222B44CF0085CC85 /* Feature */,
+				02B93F94223FF4A20083313F /* Mock */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -351,6 +352,7 @@
 			children = (
 				023E5762222B44E40085CC85 /* Common */,
 				023E5761222B44DE0085CC85 /* Feature */,
+				02B93F95223FF4B40083313F /* Mock */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -360,6 +362,7 @@
 			children = (
 				023E5764222B44F00085CC85 /* Common */,
 				023E5763222B44EA0085CC85 /* Feature */,
+				02B93F96223FF5E20083313F /* Mock */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 			children = (
 				023E5766222B44FD0085CC85 /* Common */,
 				023E5765222B44F70085CC85 /* Feature */,
+				02B93F99223FF6140083313F /* Mock */,
 			);
 			path = tvOS;
 			sourceTree = "<group>";
@@ -378,6 +382,7 @@
 			children = (
 				023E5768222B45080085CC85 /* Common */,
 				023E5767222B45030085CC85 /* Feature */,
+				02B93F98223FF6090083313F /* Mock */,
 			);
 			path = watchOS;
 			sourceTree = "<group>";
@@ -410,6 +415,7 @@
 			children = (
 				023E575E222B44B90085CC85 /* Common */,
 				023E575D222B44B20085CC85 /* Feature */,
+				02B93F97223FF5F90083313F /* Mock */,
 			);
 			path = Linux;
 			sourceTree = "<group>";
@@ -439,7 +445,6 @@
 			isa = PBXGroup;
 			children = (
 				026D3A10222CB32400C3E905 /* Protocols */,
-				026D3A18222D442700C3E905 /* Extensions */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -535,13 +540,6 @@
 			sourceTree = "<group>";
 		};
 		026D3A17222D440C00C3E905 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		026D3A18222D442700C3E905 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -792,6 +790,51 @@
 				02A14667222C56120037CF5E /* ScriptableTwoMock.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		02B93F94223FF4A20083313F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				02B93F9A224002CF0083313F /* Structs */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		02B93F95223FF4B40083313F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				02A1464B222C50E80037CF5E /* Structs */,
+				02A14663222C541D0037CF5E /* Classes */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		02B93F96223FF5E20083313F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		02B93F97223FF5F90083313F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		02B93F98223FF6090083313F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		02B93F99223FF6140083313F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
