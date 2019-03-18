@@ -21,6 +21,34 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		022BD58B224020CC00840721 /* IdentifiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD589224020CC00840721 /* IdentifiableTests.swift */; };
+		022BD58C224020CC00840721 /* IdentifiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD589224020CC00840721 /* IdentifiableTests.swift */; };
+		022BD58D224020CC00840721 /* IdentifiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD589224020CC00840721 /* IdentifiableTests.swift */; };
+		022BD58E224020CC00840721 /* IdentifiableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD589224020CC00840721 /* IdentifiableTests.swift */; };
+		022BD58F224020CC00840721 /* BooleableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD58A224020CC00840721 /* BooleableTests.swift */; };
+		022BD590224020CC00840721 /* BooleableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD58A224020CC00840721 /* BooleableTests.swift */; };
+		022BD591224020CC00840721 /* BooleableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD58A224020CC00840721 /* BooleableTests.swift */; };
+		022BD592224020CC00840721 /* BooleableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD58A224020CC00840721 /* BooleableTests.swift */; };
+		022BD595224020DA00840721 /* BooleableMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD594224020DA00840721 /* BooleableMock.swift */; };
+		022BD596224020DA00840721 /* BooleableMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD594224020DA00840721 /* BooleableMock.swift */; };
+		022BD597224020DA00840721 /* BooleableMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD594224020DA00840721 /* BooleableMock.swift */; };
+		022BD598224020DA00840721 /* BooleableMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD594224020DA00840721 /* BooleableMock.swift */; };
+		022BD5B62240210E00840721 /* ScriptableOneMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B12240210E00840721 /* ScriptableOneMock.swift */; };
+		022BD5B72240210E00840721 /* ScriptableOneMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B12240210E00840721 /* ScriptableOneMock.swift */; };
+		022BD5B82240210E00840721 /* ScriptableOneMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B12240210E00840721 /* ScriptableOneMock.swift */; };
+		022BD5B92240210E00840721 /* ScriptableOneMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B12240210E00840721 /* ScriptableOneMock.swift */; };
+		022BD5BA2240210E00840721 /* ScriptableTwoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B22240210E00840721 /* ScriptableTwoMock.swift */; };
+		022BD5BB2240210E00840721 /* ScriptableTwoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B22240210E00840721 /* ScriptableTwoMock.swift */; };
+		022BD5BC2240210E00840721 /* ScriptableTwoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B22240210E00840721 /* ScriptableTwoMock.swift */; };
+		022BD5BD2240210E00840721 /* ScriptableTwoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B22240210E00840721 /* ScriptableTwoMock.swift */; };
+		022BD5BE2240210E00840721 /* TestOneScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B42240210E00840721 /* TestOneScriptMock.swift */; };
+		022BD5BF2240210E00840721 /* TestOneScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B42240210E00840721 /* TestOneScriptMock.swift */; };
+		022BD5C02240210E00840721 /* TestOneScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B42240210E00840721 /* TestOneScriptMock.swift */; };
+		022BD5C12240210E00840721 /* TestOneScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B42240210E00840721 /* TestOneScriptMock.swift */; };
+		022BD5C22240210E00840721 /* TestTwoScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B52240210E00840721 /* TestTwoScriptMock.swift */; };
+		022BD5C32240210E00840721 /* TestTwoScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B52240210E00840721 /* TestTwoScriptMock.swift */; };
+		022BD5C42240210E00840721 /* TestTwoScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B52240210E00840721 /* TestTwoScriptMock.swift */; };
+		022BD5C52240210E00840721 /* TestTwoScriptMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022BD5B52240210E00840721 /* TestTwoScriptMock.swift */; };
 		023E5777222B46120085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E576E222B46120085CC85 /* Alice.framework */; };
 		023E57BA222B4A550085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E57B1222B4A550085CC85 /* Alice.framework */; };
 		026D39FF222CA4F900C3E905 /* CharacterSpecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D39FE222CA4F900C3E905 /* CharacterSpecial.swift */; };
@@ -125,6 +153,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022BD589224020CC00840721 /* IdentifiableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableTests.swift; sourceTree = "<group>"; };
+		022BD58A224020CC00840721 /* BooleableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooleableTests.swift; sourceTree = "<group>"; };
+		022BD594224020DA00840721 /* BooleableMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooleableMock.swift; sourceTree = "<group>"; };
+		022BD5B12240210E00840721 /* ScriptableOneMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptableOneMock.swift; sourceTree = "<group>"; };
+		022BD5B22240210E00840721 /* ScriptableTwoMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptableTwoMock.swift; sourceTree = "<group>"; };
+		022BD5B42240210E00840721 /* TestOneScriptMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestOneScriptMock.swift; sourceTree = "<group>"; };
+		022BD5B52240210E00840721 /* TestTwoScriptMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTwoScriptMock.swift; sourceTree = "<group>"; };
 		023E576E222B46120085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E5776222B46120085CC85 /* Alice macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E5795222B48AF0085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -234,6 +269,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		020C842322401EB900D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		020C842422401EC100D570BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		020C842522401EDE00D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		020C842622401EEC00D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		020C842722401EFD00D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		020C842822401F1100D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				022BD5B02240210E00840721 /* Classes */,
+				022BD5B32240210E00840721 /* Structs */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		020C842922401F2900D570BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				022BD588224020CC00840721 /* Protocols */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		020C842A22401F3000D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				022BD593224020DA00840721 /* Structs */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		022BD587224020AA00840721 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				02B93F8E223FC0B40083313F /* BooleableTests.swift */,
+				02A1464C222C50E80037CF5E /* TestOneScriptMock.swift */,
+				02A14664222C54500037CF5E /* ScriptableOneMock.swift */,
+				026D3A11222CB32400C3E905 /* IdentifiableTests.swift */,
+				02A1464D222C50E80037CF5E /* TestTwoScriptMock.swift */,
+				02B93F9B224002EC0083313F /* BooleableMock.swift */,
+				02A14667222C56120037CF5E /* ScriptableTwoMock.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		022BD588224020CC00840721 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				022BD589224020CC00840721 /* IdentifiableTests.swift */,
+				022BD58A224020CC00840721 /* BooleableTests.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		022BD593224020DA00840721 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				022BD594224020DA00840721 /* BooleableMock.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		022BD5B02240210E00840721 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				022BD5B12240210E00840721 /* ScriptableOneMock.swift */,
+				022BD5B22240210E00840721 /* ScriptableTwoMock.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		022BD5B32240210E00840721 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				022BD5B42240210E00840721 /* TestOneScriptMock.swift */,
+				022BD5B52240210E00840721 /* TestTwoScriptMock.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
 		023E5744222B43260085CC85 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,9 +500,9 @@
 		023E5753222B44040085CC85 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				023E5760222B44D60085CC85 /* Common */,
+				020C842922401F2900D570BB /* Common */,
 				023E575F222B44CF0085CC85 /* Feature */,
-				02B93F94223FF4A20083313F /* Mock */,
+				020C842A22401F3000D570BB /* Mock */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -368,7 +512,7 @@
 			children = (
 				023E5762222B44E40085CC85 /* Common */,
 				023E5761222B44DE0085CC85 /* Feature */,
-				02B93F95223FF4B40083313F /* Mock */,
+				020C842822401F1100D570BB /* Mock */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -378,7 +522,7 @@
 			children = (
 				023E5764222B44F00085CC85 /* Common */,
 				023E5763222B44EA0085CC85 /* Feature */,
-				02B93F96223FF5E20083313F /* Mock */,
+				020C842722401EFD00D570BB /* Mock */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -388,7 +532,7 @@
 			children = (
 				023E5766222B44FD0085CC85 /* Common */,
 				023E5765222B44F70085CC85 /* Feature */,
-				02B93F99223FF6140083313F /* Mock */,
+				020C842622401EEC00D570BB /* Mock */,
 			);
 			path = tvOS;
 			sourceTree = "<group>";
@@ -398,7 +542,7 @@
 			children = (
 				023E5768222B45080085CC85 /* Common */,
 				023E5767222B45030085CC85 /* Feature */,
-				02B93F98223FF6090083313F /* Mock */,
+				020C842522401EDE00D570BB /* Mock */,
 			);
 			path = watchOS;
 			sourceTree = "<group>";
@@ -429,9 +573,9 @@
 		023E575C222B44AA0085CC85 /* Linux */ = {
 			isa = PBXGroup;
 			children = (
-				023E575E222B44B90085CC85 /* Common */,
+				020C842422401EC100D570BB /* Common */,
 				023E575D222B44B20085CC85 /* Feature */,
-				02B93F97223FF5F90083313F /* Mock */,
+				020C842322401EB900D570BB /* Mock */,
 			);
 			path = Linux;
 			sourceTree = "<group>";
@@ -443,26 +587,11 @@
 			path = Feature;
 			sourceTree = "<group>";
 		};
-		023E575E222B44B90085CC85 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		023E575F222B44CF0085CC85 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Feature;
-			sourceTree = "<group>";
-		};
-		023E5760222B44D60085CC85 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				026D3A10222CB32400C3E905 /* Protocols */,
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		023E5761222B44DE0085CC85 /* Feature */ = {
@@ -544,15 +673,6 @@
 			children = (
 				026D3A0A222CB30900C3E905 /* Identifiable.swift */,
 				02B93F88223FBF4F0083313F /* Booleable.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		026D3A10222CB32400C3E905 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				026D3A11222CB32400C3E905 /* IdentifiableTests.swift */,
-				02B93F8E223FC0B40083313F /* BooleableTests.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -773,15 +893,6 @@
 			path = Scripts;
 			sourceTree = "<group>";
 		};
-		02A1464B222C50E80037CF5E /* Structs */ = {
-			isa = PBXGroup;
-			children = (
-				02A1464C222C50E80037CF5E /* TestOneScriptMock.swift */,
-				02A1464D222C50E80037CF5E /* TestTwoScriptMock.swift */,
-			);
-			path = Structs;
-			sourceTree = "<group>";
-		};
 		02A1464E222C50E80037CF5E /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -797,68 +908,6 @@
 				02A14659222C51140037CF5E /* TestScript.command */,
 			);
 			path = Scripts;
-			sourceTree = "<group>";
-		};
-		02A14663222C541D0037CF5E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				02A14664222C54500037CF5E /* ScriptableOneMock.swift */,
-				02A14667222C56120037CF5E /* ScriptableTwoMock.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		02B93F94223FF4A20083313F /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-				02B93F9A224002CF0083313F /* Structs */,
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
-		02B93F95223FF4B40083313F /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-				02A1464B222C50E80037CF5E /* Structs */,
-				02A14663222C541D0037CF5E /* Classes */,
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
-		02B93F96223FF5E20083313F /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
-		02B93F97223FF5F90083313F /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
-		02B93F98223FF6090083313F /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
-		02B93F99223FF6140083313F /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
-		02B93F9A224002CF0083313F /* Structs */ = {
-			isa = PBXGroup;
-			children = (
-				02B93F9B224002EC0083313F /* BooleableMock.swift */,
-			);
-			path = Structs;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -909,6 +958,7 @@
 				OBJ_10 /* Tests */,
 				023E5785222B46E20085CC85 /* Resources */,
 				OBJ_14 /* Products */,
+				022BD587224020AA00840721 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1313,16 +1363,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022BD5C32240210E00840721 /* TestTwoScriptMock.swift in Sources */,
 				02A14662222C539A0037CF5E /* ScriptableTests.swift in Sources */,
 				02A14651222C50E80037CF5E /* TestOneScriptMock.swift in Sources */,
 				02A14653222C50E80037CF5E /* TestTwoScriptMock.swift in Sources */,
+				022BD58C224020CC00840721 /* IdentifiableTests.swift in Sources */,
 				02A14669222C56120037CF5E /* ScriptableTwoMock.swift in Sources */,
 				02A14655222C50E80037CF5E /* ScriptTests.swift in Sources */,
 				026D3A13222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
+				022BD5B72240210E00840721 /* ScriptableOneMock.swift in Sources */,
+				022BD596224020DA00840721 /* BooleableMock.swift in Sources */,
+				022BD5BF2240210E00840721 /* TestOneScriptMock.swift in Sources */,
 				02B93F90223FC0B40083313F /* BooleableTests.swift in Sources */,
 				02A14666222C54500037CF5E /* ScriptableOneMock.swift in Sources */,
 				026D3A27222D996600C3E905 /* AliceTests.swift in Sources */,
+				022BD5BB2240210E00840721 /* ScriptableTwoMock.swift in Sources */,
 				02BF7D2E223F15DF00F6B6F0 /* AliceTests.swift in Sources */,
+				022BD590224020CC00840721 /* BooleableTests.swift in Sources */,
 				02B93FA2224003360083313F /* BooleableMock.swift in Sources */,
 				02BF7D31223F15F400F6B6F0 /* XCTestManifests.swift in Sources */,
 			);
@@ -1352,11 +1409,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022BD592224020CC00840721 /* BooleableTests.swift in Sources */,
 				026D3A02222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
+				022BD5C12240210E00840721 /* TestOneScriptMock.swift in Sources */,
+				022BD5B92240210E00840721 /* ScriptableOneMock.swift in Sources */,
+				022BD5BD2240210E00840721 /* ScriptableTwoMock.swift in Sources */,
+				022BD5C52240210E00840721 /* TestTwoScriptMock.swift in Sources */,
 				026D3A0E222CB30900C3E905 /* Identifiable.swift in Sources */,
 				02BF7D30223F15E100F6B6F0 /* AliceTests.swift in Sources */,
 				02B93F92223FC0B40083313F /* BooleableTests.swift in Sources */,
 				02B93FA42240033A0083313F /* BooleableMock.swift in Sources */,
+				022BD58E224020CC00840721 /* IdentifiableTests.swift in Sources */,
+				022BD598224020DA00840721 /* BooleableMock.swift in Sources */,
 				02BF7D33223F15F600F6B6F0 /* XCTestManifests.swift in Sources */,
 				02F61563223F1B4D0078FCE2 /* IdentifiableTests.swift in Sources */,
 			);
@@ -1375,11 +1439,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022BD591224020CC00840721 /* BooleableTests.swift in Sources */,
 				026D3A03222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
+				022BD5C02240210E00840721 /* TestOneScriptMock.swift in Sources */,
+				022BD5B82240210E00840721 /* ScriptableOneMock.swift in Sources */,
+				022BD5BC2240210E00840721 /* ScriptableTwoMock.swift in Sources */,
+				022BD5C42240210E00840721 /* TestTwoScriptMock.swift in Sources */,
 				026D3A0F222CB30900C3E905 /* Identifiable.swift in Sources */,
 				02BF7D43223F172900F6B6F0 /* AliceTests.swift in Sources */,
 				02B93F91223FC0B40083313F /* BooleableTests.swift in Sources */,
 				02B93FA3224003390083313F /* BooleableMock.swift in Sources */,
+				022BD58D224020CC00840721 /* IdentifiableTests.swift in Sources */,
+				022BD597224020DA00840721 /* BooleableMock.swift in Sources */,
 				02F61562223F1B4A0078FCE2 /* IdentifiableTests.swift in Sources */,
 				02BF7D48223F17DD00F6B6F0 /* XCTestManifests.swift in Sources */,
 			);
@@ -1411,13 +1482,20 @@
 			buildActionMask = 0;
 			files = (
 				02B93F8F223FC0B40083313F /* BooleableTests.swift in Sources */,
+				022BD58B224020CC00840721 /* IdentifiableTests.swift in Sources */,
 				02A14661222C539A0037CF5E /* ScriptableTests.swift in Sources */,
+				022BD5BE2240210E00840721 /* TestOneScriptMock.swift in Sources */,
+				022BD58F224020CC00840721 /* BooleableTests.swift in Sources */,
 				02A14650222C50E80037CF5E /* TestOneScriptMock.swift in Sources */,
 				OBJ_40 /* AliceTests.swift in Sources */,
+				022BD5BA2240210E00840721 /* ScriptableTwoMock.swift in Sources */,
 				02A14665222C54500037CF5E /* ScriptableOneMock.swift in Sources */,
 				026D3A12222CB32400C3E905 /* IdentifiableTests.swift in Sources */,
+				022BD595224020DA00840721 /* BooleableMock.swift in Sources */,
 				02A14652222C50E80037CF5E /* TestTwoScriptMock.swift in Sources */,
 				02A14654222C50E80037CF5E /* ScriptTests.swift in Sources */,
+				022BD5C22240210E00840721 /* TestTwoScriptMock.swift in Sources */,
+				022BD5B62240210E00840721 /* ScriptableOneMock.swift in Sources */,
 				02B93FA1224003350083313F /* BooleableMock.swift in Sources */,
 				02A14668222C56120037CF5E /* ScriptableTwoMock.swift in Sources */,
 			);
