@@ -174,6 +174,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		020C842322401EB900D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		020C842422401EC100D570BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		020C842522401EDE00D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		020C842622401EEC00D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		020C842722401EFD00D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		020C842822401F1100D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		020C842922401F2900D570BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		020C842A22401F3000D570BB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		023E5744222B43260085CC85 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,8 +348,9 @@
 		023E5753222B44040085CC85 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				023E5760222B44D60085CC85 /* Common */,
+				020C842922401F2900D570BB /* Common */,
 				023E575F222B44CF0085CC85 /* Feature */,
+				020C842A22401F3000D570BB /* Mock */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -303,6 +360,7 @@
 			children = (
 				023E5762222B44E40085CC85 /* Common */,
 				023E5761222B44DE0085CC85 /* Feature */,
+				020C842822401F1100D570BB /* Mock */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -312,6 +370,7 @@
 			children = (
 				023E5764222B44F00085CC85 /* Common */,
 				023E5763222B44EA0085CC85 /* Feature */,
+				020C842722401EFD00D570BB /* Mock */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -321,6 +380,7 @@
 			children = (
 				023E5766222B44FD0085CC85 /* Common */,
 				023E5765222B44F70085CC85 /* Feature */,
+				020C842622401EEC00D570BB /* Mock */,
 			);
 			path = tvOS;
 			sourceTree = "<group>";
@@ -330,6 +390,7 @@
 			children = (
 				023E5768222B45080085CC85 /* Common */,
 				023E5767222B45030085CC85 /* Feature */,
+				020C842522401EDE00D570BB /* Mock */,
 			);
 			path = watchOS;
 			sourceTree = "<group>";
@@ -360,8 +421,9 @@
 		023E575C222B44AA0085CC85 /* Linux */ = {
 			isa = PBXGroup;
 			children = (
-				023E575E222B44B90085CC85 /* Common */,
+				020C842422401EC100D570BB /* Common */,
 				023E575D222B44B20085CC85 /* Feature */,
+				020C842322401EB900D570BB /* Mock */,
 			);
 			path = Linux;
 			sourceTree = "<group>";
@@ -373,25 +435,11 @@
 			path = Feature;
 			sourceTree = "<group>";
 		};
-		023E575E222B44B90085CC85 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		023E575F222B44CF0085CC85 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Feature;
-			sourceTree = "<group>";
-		};
-		023E5760222B44D60085CC85 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		023E5761222B44DE0085CC85 /* Feature */ = {
