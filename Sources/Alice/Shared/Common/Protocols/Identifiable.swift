@@ -1,6 +1,6 @@
 //
 //  Identifiable.swift
-//  Kashmir
+//  Alice
 //
 //  Created by Javier Cicchelli on 06/09/2018.
 //  Copyright © 2018 Rock & Code. All rights reserved.
