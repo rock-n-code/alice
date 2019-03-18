@@ -1,4 +1,5 @@
 import XCTest
+
 @testable import Alice
 
 final class AliceTests: XCTestCase {
