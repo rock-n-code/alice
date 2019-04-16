@@ -31,11 +31,11 @@ class BooleableTests: XCTestCase {
 	// MARK: Functions tests
 	
 	func testAsBool() {
-		let testOne = BooleableMock(bool: true)
-		let testTwo = BooleableMock(bool: false)
+		let testTrue = BooleableMock(bool: true)
+		let testFalse = BooleableMock(bool: false)
 		
-		XCTAssertEqual(testOne.asBool(), true)
-		XCTAssertEqual(testTwo.asBool(), false)
+		XCTAssertEqual(testTrue.asBool(), true)
+		XCTAssertEqual(testFalse.asBool(), false)
 	}
 
 }

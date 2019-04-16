@@ -25,20 +25,13 @@ class IdentifiableTests: XCTestCase {
 	// MARK: Static tests
 	
 	func testStaticIdentify() {
-		XCTAssertEqual(OneTest.identify(), "OneTest")
-		XCTAssertEqual(TwoTest.identify(), "TwoTest")
+		XCTAssertEqual(IdentifiableMock.identify(), "IdentifiableMock")
 	}
 	
 	// MARK: Properties tests
 	
 	func testIdentify() {
-		XCTAssertEqual(OneTest().identify(), "OneTest")
-		XCTAssertEqual(TwoTest().identify(), "TwoTest")
+		XCTAssertEqual(IdentifiableMock().identify(), "IdentifiableMock")
 	}
 	
 }
-
-// MARK: - Mocks
-
-private class OneTest: Identifiable {}
-private class TwoTest: NSObject, Identifiable {}
