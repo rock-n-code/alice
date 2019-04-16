@@ -60,7 +60,6 @@
 		02762F4E226611460052510A /* AliceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* AliceTests.swift */; };
 		02762F51226619230052510A /* URLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F50226619230052510A /* URLable.swift */; };
 		02762F52226619230052510A /* URLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F50226619230052510A /* URLable.swift */; };
-		02762F53226619230052510A /* URLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F50226619230052510A /* URLable.swift */; };
 		02762F54226619230052510A /* URLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F50226619230052510A /* URLable.swift */; };
 		02762F55226619230052510A /* URLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F50226619230052510A /* URLable.swift */; };
 		02762F56226619230052510A /* URLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F50226619230052510A /* URLable.swift */; };
@@ -72,6 +71,19 @@
 		02762F5E22661D810052510A /* URLableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F5C22661D810052510A /* URLableTests.swift */; };
 		02762F5F22661D810052510A /* URLableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F5C22661D810052510A /* URLableTests.swift */; };
 		02762F6022661D810052510A /* URLableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F5C22661D810052510A /* URLableTests.swift */; };
+		02762F6122661F920052510A /* CharacterSpecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D39FE222CA4F900C3E905 /* CharacterSpecial.swift */; };
+		02762F6222661F930052510A /* CharacterSpecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D39FE222CA4F900C3E905 /* CharacterSpecial.swift */; };
+		02762F6322661F990052510A /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A0A222CB30900C3E905 /* Identifiable.swift */; };
+		02762F6422661F9E0052510A /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D3A0A222CB30900C3E905 /* Identifiable.swift */; };
+		02762F66226620200052510A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F65226620200052510A /* StringExtensions.swift */; };
+		02762F67226620200052510A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F65226620200052510A /* StringExtensions.swift */; };
+		02762F68226620200052510A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F65226620200052510A /* StringExtensions.swift */; };
+		02762F69226620200052510A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F65226620200052510A /* StringExtensions.swift */; };
+		02762F6A226620200052510A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F65226620200052510A /* StringExtensions.swift */; };
+		02762F6D2266204E0052510A /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F6C2266204E0052510A /* StringExtensionsTests.swift */; };
+		02762F6E2266204E0052510A /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F6C2266204E0052510A /* StringExtensionsTests.swift */; };
+		02762F6F2266204E0052510A /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F6C2266204E0052510A /* StringExtensionsTests.swift */; };
+		02762F702266204E0052510A /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762F6C2266204E0052510A /* StringExtensionsTests.swift */; };
 		02A14648222C50980037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A14649222C50990037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A1465A222C51140037CF5E /* TestScript.command in Resources */ = {isa = PBXBuildFile; fileRef = 02A14659222C51140037CF5E /* TestScript.command */; };
@@ -152,6 +164,8 @@
 		02762F50226619230052510A /* URLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLable.swift; sourceTree = "<group>"; };
 		02762F5722661AD30052510A /* URLableMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLableMock.swift; sourceTree = "<group>"; };
 		02762F5C22661D810052510A /* URLableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLableTests.swift; sourceTree = "<group>"; };
+		02762F65226620200052510A /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		02762F6C2266204E0052510A /* StringExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionsTests.swift; sourceTree = "<group>"; };
 		02A1461D222C258C0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14621222C259D0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14626222C25B30037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -300,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				022BD588224020CC00840721 /* Protocols */,
+				02762F6B2266202B0052510A /* Extensions */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -667,6 +682,15 @@
 		026D3A17222D440C00C3E905 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				02762F65226620200052510A /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		02762F6B2266202B0052510A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				02762F6C2266204E0052510A /* StringExtensionsTests.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1337,6 +1361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02762F67226620200052510A /* StringExtensions.swift in Sources */,
 				02A1465F222C53290037CF5E /* Scriptable.swift in Sources */,
 				02762F52226619230052510A /* URLable.swift in Sources */,
 				026D3A0C222CB30900C3E905 /* Identifiable.swift in Sources */,
@@ -1353,12 +1378,12 @@
 			files = (
 				02762F4C226611290052510A /* TestOneScriptMock.swift in Sources */,
 				02762F5E22661D810052510A /* URLableTests.swift in Sources */,
-				02762F53226619230052510A /* URLable.swift in Sources */,
 				02762F49226611290052510A /* ScriptableTests.swift in Sources */,
 				02762F33226610DF0052510A /* IdentifiableTests.swift in Sources */,
 				02762F3D226610F40052510A /* BooleableMock.swift in Sources */,
 				02762F3C226610F40052510A /* IdentifiableMock.swift in Sources */,
 				02762F4D226611290052510A /* TestTwoScriptMock.swift in Sources */,
+				02762F6E2266204E0052510A /* StringExtensionsTests.swift in Sources */,
 				02762F4A226611290052510A /* ScriptableOneMock.swift in Sources */,
 				02762F37226610EB0052510A /* BooleableTests.swift in Sources */,
 				02762F5922661AD30052510A /* URLableMock.swift in Sources */,
@@ -1371,6 +1396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02762F68226620200052510A /* StringExtensions.swift in Sources */,
 				026D3A01222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				026D3A0D222CB30900C3E905 /* Identifiable.swift in Sources */,
 				02BF7D45223F176700F6B6F0 /* Alice.swift in Sources */,
@@ -1383,9 +1409,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02762F69226620200052510A /* StringExtensions.swift in Sources */,
 				02762F55226619230052510A /* URLable.swift in Sources */,
 				02BF7D46223F176800F6B6F0 /* Alice.swift in Sources */,
 				02B93F8C223FBF4F0083313F /* Booleable.swift in Sources */,
+				02762F6322661F990052510A /* Identifiable.swift in Sources */,
+				02762F6122661F920052510A /* CharacterSpecial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1396,6 +1425,7 @@
 				02762F5B22661AD30052510A /* URLableMock.swift in Sources */,
 				02762F35226610E20052510A /* IdentifiableTests.swift in Sources */,
 				02762F41226610F60052510A /* BooleableMock.swift in Sources */,
+				02762F702266204E0052510A /* StringExtensionsTests.swift in Sources */,
 				02762F6022661D810052510A /* URLableTests.swift in Sources */,
 				02762F40226610F60052510A /* IdentifiableMock.swift in Sources */,
 				02762F39226610ED0052510A /* BooleableTests.swift in Sources */,
@@ -1406,9 +1436,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02762F6A226620200052510A /* StringExtensions.swift in Sources */,
 				02762F56226619230052510A /* URLable.swift in Sources */,
 				02BF7D47223F176900F6B6F0 /* Alice.swift in Sources */,
 				02B93F8D223FBF4F0083313F /* Booleable.swift in Sources */,
+				02762F6422661F9E0052510A /* Identifiable.swift in Sources */,
+				02762F6222661F930052510A /* CharacterSpecial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1419,6 +1452,7 @@
 				02762F5A22661AD30052510A /* URLableMock.swift in Sources */,
 				02762F34226610E00052510A /* IdentifiableTests.swift in Sources */,
 				02762F3F226610F50052510A /* BooleableMock.swift in Sources */,
+				02762F6F2266204E0052510A /* StringExtensionsTests.swift in Sources */,
 				02762F5F22661D810052510A /* URLableTests.swift in Sources */,
 				02762F3E226610F50052510A /* IdentifiableMock.swift in Sources */,
 				02762F38226610EC0052510A /* BooleableTests.swift in Sources */,
@@ -1429,6 +1463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				02762F66226620200052510A /* StringExtensions.swift in Sources */,
 				02A14648222C50980037CF5E /* Script.swift in Sources */,
 				02762F51226619230052510A /* URLable.swift in Sources */,
 				026D39FF222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
@@ -1461,6 +1496,7 @@
 				02762F44226611250052510A /* ScriptableOneMock.swift in Sources */,
 				02762F36226610E90052510A /* BooleableTests.swift in Sources */,
 				02762F4E226611460052510A /* AliceTests.swift in Sources */,
+				02762F6D2266204E0052510A /* StringExtensionsTests.swift in Sources */,
 				02762F5822661AD30052510A /* URLableMock.swift in Sources */,
 				02762F42226611250052510A /* ScriptTests.swift in Sources */,
 				02762F45226611250052510A /* ScriptableTwoMock.swift in Sources */,
