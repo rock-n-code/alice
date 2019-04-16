@@ -11,6 +11,13 @@ import XCTest
 
 class BooleableTests: XCTestCase {
 
+	// MARK: Static
+	
+	static var allTests = [
+		("testInit", testInit),
+		("testAsBool", testAsBool)
+	]
+	
 	// MARK: Setup
 	
     override func setUp() {

@@ -6,6 +6,7 @@
 //  Copyright © 2018 Rock & Code. All rights reserved.
 //
 
+/// Protocol to identify the class name of a class or an instance.
 public protocol Identifiable {}
 
 // MARK: -

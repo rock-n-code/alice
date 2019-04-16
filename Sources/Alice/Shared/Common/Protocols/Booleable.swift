@@ -5,6 +5,7 @@
 //  Created by Javier Cicchelli on 18/03/2019.
 //
 
+/// Protocol to add functionality with `Bool` instances.
 public protocol Booleable {
 	
 	// MARK: Initializers

@@ -12,6 +12,13 @@ import XCTest
 
 class IdentifiableTests: XCTestCase {
 	
+	// MARK: Static
+	
+	static var allTests = [
+		("testStaticIdentify", testStaticIdentify),
+		("testIdentify", testIdentify)
+	]
+	
 	// MARK: Setup
 	
 	override func setUp() {
