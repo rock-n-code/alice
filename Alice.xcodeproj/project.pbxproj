@@ -141,6 +141,11 @@
 		0276300B2267D7DC0052510A /* NSPersistentStoreDescriptionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027630092267D7DC0052510A /* NSPersistentStoreDescriptionExtensionsTests.swift */; };
 		0276300C2267D7DC0052510A /* NSPersistentStoreDescriptionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027630092267D7DC0052510A /* NSPersistentStoreDescriptionExtensionsTests.swift */; };
 		0276300D2267D7DC0052510A /* NSPersistentStoreDescriptionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027630092267D7DC0052510A /* NSPersistentStoreDescriptionExtensionsTests.swift */; };
+		0276300F2267E5800052510A /* NSManagedObjectContextKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276300E2267E5800052510A /* NSManagedObjectContextKind.swift */; };
+		027630102267E5800052510A /* NSManagedObjectContextKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276300E2267E5800052510A /* NSManagedObjectContextKind.swift */; };
+		027630112267E5800052510A /* NSManagedObjectContextKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276300E2267E5800052510A /* NSManagedObjectContextKind.swift */; };
+		027630122267E5800052510A /* NSManagedObjectContextKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276300E2267E5800052510A /* NSManagedObjectContextKind.swift */; };
+		027630132267E5800052510A /* NSManagedObjectContextKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276300E2267E5800052510A /* NSManagedObjectContextKind.swift */; };
 		02A14648222C50980037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A14649222C50990037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A1465A222C51140037CF5E /* TestScript.command in Resources */ = {isa = PBXBuildFile; fileRef = 02A14659222C51140037CF5E /* TestScript.command */; };
@@ -236,6 +241,7 @@
 		02762FFB2267C92A0052510A /* DataStackError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackError.swift; sourceTree = "<group>"; };
 		027630022267D2EA0052510A /* NSPersistentStoreDescriptionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPersistentStoreDescriptionExtensions.swift; sourceTree = "<group>"; };
 		027630092267D7DC0052510A /* NSPersistentStoreDescriptionExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPersistentStoreDescriptionExtensionsTests.swift; sourceTree = "<group>"; };
+		0276300E2267E5800052510A /* NSManagedObjectContextKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContextKind.swift; sourceTree = "<group>"; };
 		02A1461D222C258C0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14621222C259D0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14626222C25B30037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -846,6 +852,7 @@
 			isa = PBXGroup;
 			children = (
 				02762FEE2267C4E20052510A /* DataStackStore.swift */,
+				0276300E2267E5800052510A /* NSManagedObjectContextKind.swift */,
 			);
 			path = Enumerations;
 			sourceTree = "<group>";
@@ -1551,6 +1558,7 @@
 				02762F67226620200052510A /* StringExtensions.swift in Sources */,
 				027630042267D2EA0052510A /* NSPersistentStoreDescriptionExtensions.swift in Sources */,
 				02A1465F222C53290037CF5E /* Scriptable.swift in Sources */,
+				027630102267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
 				02762FB7226751F40052510A /* Value.swift in Sources */,
 				02762F52226619230052510A /* URLable.swift in Sources */,
 				026D3A0C222CB30900C3E905 /* Identifiable.swift in Sources */,
@@ -1602,6 +1610,7 @@
 				026D3A01222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				02762FD72267652D0052510A /* DataStack.swift in Sources */,
 				026D3A0D222CB30900C3E905 /* Identifiable.swift in Sources */,
+				027630112267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
 				02762FFE2267C92A0052510A /* DataStackError.swift in Sources */,
 				02762FDD226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FB8226751F40052510A /* Value.swift in Sources */,
@@ -1620,6 +1629,7 @@
 				027630062267D2EA0052510A /* NSPersistentStoreDescriptionExtensions.swift in Sources */,
 				02762F55226619230052510A /* URLable.swift in Sources */,
 				02BF7D46223F176800F6B6F0 /* Alice.swift in Sources */,
+				027630122267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
 				02762FFF2267C92A0052510A /* DataStackError.swift in Sources */,
 				02762FDE226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FB9226751F40052510A /* Value.swift in Sources */,
@@ -1660,6 +1670,7 @@
 				027630072267D2EA0052510A /* NSPersistentStoreDescriptionExtensions.swift in Sources */,
 				02762F56226619230052510A /* URLable.swift in Sources */,
 				02BF7D47223F176900F6B6F0 /* Alice.swift in Sources */,
+				027630132267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
 				027630002267C92A0052510A /* DataStackError.swift in Sources */,
 				02762FDF226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FBA226751F40052510A /* Value.swift in Sources */,
@@ -1698,6 +1709,7 @@
 				02762F66226620200052510A /* StringExtensions.swift in Sources */,
 				027630032267D2EA0052510A /* NSPersistentStoreDescriptionExtensions.swift in Sources */,
 				02A14648222C50980037CF5E /* Script.swift in Sources */,
+				0276300F2267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
 				02762FB6226751F40052510A /* Value.swift in Sources */,
 				02762F51226619230052510A /* URLable.swift in Sources */,
 				026D39FF222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
