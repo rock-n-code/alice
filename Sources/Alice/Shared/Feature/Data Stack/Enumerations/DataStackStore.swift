@@ -49,7 +49,7 @@ extension DataStack {
 				#if os(macOS)
 				return "xml"
 				#else
-				return ""
+				return "sqlite"
 				#endif
 			case .binary:
 				return "bin"

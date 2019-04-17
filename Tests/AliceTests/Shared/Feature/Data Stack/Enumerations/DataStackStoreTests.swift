@@ -50,7 +50,7 @@ class DataStackStoreTests: XCTestCase {
 		#if os(macOS)
 		XCTAssertEqual(DataStack.Store.xml.extensionValue, "xml")
 		#else
-		XCTAssertEqual(DataStack.Store.xml.extensionValue, "")
+		XCTAssertEqual(DataStack.Store.xml.extensionValue, "sqlite")
 		#endif
 	}
 
