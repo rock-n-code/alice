@@ -127,6 +127,11 @@
 		02762FF72267C69C0052510A /* DataStackStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FF52267C69C0052510A /* DataStackStoreTests.swift */; };
 		02762FF82267C69C0052510A /* DataStackStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FF52267C69C0052510A /* DataStackStoreTests.swift */; };
 		02762FF92267C69C0052510A /* DataStackStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FF52267C69C0052510A /* DataStackStoreTests.swift */; };
+		02762FFC2267C92A0052510A /* DataStackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FFB2267C92A0052510A /* DataStackError.swift */; };
+		02762FFD2267C92A0052510A /* DataStackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FFB2267C92A0052510A /* DataStackError.swift */; };
+		02762FFE2267C92A0052510A /* DataStackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FFB2267C92A0052510A /* DataStackError.swift */; };
+		02762FFF2267C92A0052510A /* DataStackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FFB2267C92A0052510A /* DataStackError.swift */; };
+		027630002267C92A0052510A /* DataStackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FFB2267C92A0052510A /* DataStackError.swift */; };
 		02A14648222C50980037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A14649222C50990037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A1465A222C51140037CF5E /* TestScript.command in Resources */ = {isa = PBXBuildFile; fileRef = 02A14659222C51140037CF5E /* TestScript.command */; };
@@ -219,6 +224,7 @@
 		02762FE822676FC90052510A /* DataStackModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackModelTests.swift; sourceTree = "<group>"; };
 		02762FEE2267C4E20052510A /* DataStackStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackStore.swift; sourceTree = "<group>"; };
 		02762FF52267C69C0052510A /* DataStackStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackStoreTests.swift; sourceTree = "<group>"; };
+		02762FFB2267C92A0052510A /* DataStackError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackError.swift; sourceTree = "<group>"; };
 		02A1461D222C258C0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14621222C259D0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14626222C25B30037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -785,6 +791,7 @@
 			children = (
 				02762FD2226764990052510A /* Constants */,
 				02762FED2267C4B90052510A /* Enumerations */,
+				02762FFA2267C9050052510A /* Errors */,
 			);
 			path = "Data Stack";
 			sourceTree = "<group>";
@@ -836,6 +843,14 @@
 				02762FF52267C69C0052510A /* DataStackStoreTests.swift */,
 			);
 			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		02762FFA2267C9050052510A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				02762FFB2267C92A0052510A /* DataStackError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 		02A14619222C24BC0037CF5E /* Alice */ = {
@@ -1515,6 +1530,7 @@
 				02A14649222C50990037CF5E /* Script.swift in Sources */,
 				02762FDC226765F20052510A /* DataStackModel.swift in Sources */,
 				02BF7D44223F176600F6B6F0 /* Alice.swift in Sources */,
+				02762FFD2267C92A0052510A /* DataStackError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1554,6 +1570,7 @@
 				026D3A01222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				02762FD72267652D0052510A /* DataStack.swift in Sources */,
 				026D3A0D222CB30900C3E905 /* Identifiable.swift in Sources */,
+				02762FFE2267C92A0052510A /* DataStackError.swift in Sources */,
 				02762FDD226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FB8226751F40052510A /* Value.swift in Sources */,
 				02BF7D45223F176700F6B6F0 /* Alice.swift in Sources */,
@@ -1570,6 +1587,7 @@
 				02762F69226620200052510A /* StringExtensions.swift in Sources */,
 				02762F55226619230052510A /* URLable.swift in Sources */,
 				02BF7D46223F176800F6B6F0 /* Alice.swift in Sources */,
+				02762FFF2267C92A0052510A /* DataStackError.swift in Sources */,
 				02762FDE226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FB9226751F40052510A /* Value.swift in Sources */,
 				02B93F8C223FBF4F0083313F /* Booleable.swift in Sources */,
@@ -1607,6 +1625,7 @@
 				02762F6A226620200052510A /* StringExtensions.swift in Sources */,
 				02762F56226619230052510A /* URLable.swift in Sources */,
 				02BF7D47223F176900F6B6F0 /* Alice.swift in Sources */,
+				027630002267C92A0052510A /* DataStackError.swift in Sources */,
 				02762FDF226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FBA226751F40052510A /* Value.swift in Sources */,
 				02B93F8D223FBF4F0083313F /* Booleable.swift in Sources */,
@@ -1651,6 +1670,7 @@
 				026D3A0B222CB30900C3E905 /* Identifiable.swift in Sources */,
 				02762FDB226765F20052510A /* DataStackModel.swift in Sources */,
 				02A1465E222C53290037CF5E /* Scriptable.swift in Sources */,
+				02762FFC2267C92A0052510A /* DataStackError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
