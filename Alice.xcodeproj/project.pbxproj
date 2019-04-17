@@ -118,6 +118,15 @@
 		02762FEA22676FC90052510A /* DataStackModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FE822676FC90052510A /* DataStackModelTests.swift */; };
 		02762FEB22676FC90052510A /* DataStackModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FE822676FC90052510A /* DataStackModelTests.swift */; };
 		02762FEC22676FC90052510A /* DataStackModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FE822676FC90052510A /* DataStackModelTests.swift */; };
+		02762FEF2267C4E20052510A /* DataStackStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FEE2267C4E20052510A /* DataStackStore.swift */; };
+		02762FF02267C4E20052510A /* DataStackStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FEE2267C4E20052510A /* DataStackStore.swift */; };
+		02762FF12267C4E20052510A /* DataStackStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FEE2267C4E20052510A /* DataStackStore.swift */; };
+		02762FF22267C4E20052510A /* DataStackStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FEE2267C4E20052510A /* DataStackStore.swift */; };
+		02762FF32267C4E20052510A /* DataStackStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FEE2267C4E20052510A /* DataStackStore.swift */; };
+		02762FF62267C69C0052510A /* DataStackStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FF52267C69C0052510A /* DataStackStoreTests.swift */; };
+		02762FF72267C69C0052510A /* DataStackStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FF52267C69C0052510A /* DataStackStoreTests.swift */; };
+		02762FF82267C69C0052510A /* DataStackStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FF52267C69C0052510A /* DataStackStoreTests.swift */; };
+		02762FF92267C69C0052510A /* DataStackStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02762FF52267C69C0052510A /* DataStackStoreTests.swift */; };
 		02A14648222C50980037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A14649222C50990037CF5E /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A14647222C50980037CF5E /* Script.swift */; };
 		02A1465A222C51140037CF5E /* TestScript.command in Resources */ = {isa = PBXBuildFile; fileRef = 02A14659222C51140037CF5E /* TestScript.command */; };
@@ -208,6 +217,8 @@
 		02762FDA226765F20052510A /* DataStackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackModel.swift; sourceTree = "<group>"; };
 		02762FE322676F220052510A /* DataStackModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackModelMock.swift; sourceTree = "<group>"; };
 		02762FE822676FC90052510A /* DataStackModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackModelTests.swift; sourceTree = "<group>"; };
+		02762FEE2267C4E20052510A /* DataStackStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackStore.swift; sourceTree = "<group>"; };
+		02762FF52267C69C0052510A /* DataStackStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackStoreTests.swift; sourceTree = "<group>"; };
 		02A1461D222C258C0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14621222C259D0037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A14626222C25B30037CF5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -773,6 +784,7 @@
 			isa = PBXGroup;
 			children = (
 				02762FD2226764990052510A /* Constants */,
+				02762FED2267C4B90052510A /* Enumerations */,
 			);
 			path = "Data Stack";
 			sourceTree = "<group>";
@@ -789,6 +801,7 @@
 			isa = PBXGroup;
 			children = (
 				02762FE122676ED10052510A /* Constants */,
+				02762FF42267C6740052510A /* Enumerations */,
 			);
 			path = "Data Stack";
 			sourceTree = "<group>";
@@ -807,6 +820,22 @@
 				02762FE322676F220052510A /* DataStackModelMock.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		02762FED2267C4B90052510A /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				02762FEE2267C4E20052510A /* DataStackStore.swift */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		02762FF42267C6740052510A /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				02762FF52267C69C0052510A /* DataStackStoreTests.swift */,
+			);
+			path = Enumerations;
 			sourceTree = "<group>";
 		};
 		02A14619222C24BC0037CF5E /* Alice */ = {
@@ -1482,6 +1511,7 @@
 				026D3A0C222CB30900C3E905 /* Identifiable.swift in Sources */,
 				026D3A00222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				02B93F8A223FBF4F0083313F /* Booleable.swift in Sources */,
+				02762FF02267C4E20052510A /* DataStackStore.swift in Sources */,
 				02A14649222C50990037CF5E /* Script.swift in Sources */,
 				02762FDC226765F20052510A /* DataStackModel.swift in Sources */,
 				02BF7D44223F176600F6B6F0 /* Alice.swift in Sources */,
@@ -1508,6 +1538,7 @@
 				02762F37226610EB0052510A /* BooleableTests.swift in Sources */,
 				02762F5922661AD30052510A /* URLableMock.swift in Sources */,
 				02762F48226611290052510A /* ScriptTests.swift in Sources */,
+				02762FF72267C69C0052510A /* DataStackStoreTests.swift in Sources */,
 				02762F4B226611290052510A /* ScriptableTwoMock.swift in Sources */,
 				02762FEA22676FC90052510A /* DataStackModelTests.swift in Sources */,
 				02762FC922675C890052510A /* IntValueMock.swift in Sources */,
@@ -1518,8 +1549,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02762FF12267C4E20052510A /* DataStackStore.swift in Sources */,
 				02762F68226620200052510A /* StringExtensions.swift in Sources */,
 				026D3A01222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
+				02762FD72267652D0052510A /* DataStack.swift in Sources */,
 				026D3A0D222CB30900C3E905 /* Identifiable.swift in Sources */,
 				02762FDD226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FB8226751F40052510A /* Value.swift in Sources */,
@@ -1533,6 +1566,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02762FF22267C4E20052510A /* DataStackStore.swift in Sources */,
 				02762F69226620200052510A /* StringExtensions.swift in Sources */,
 				02762F55226619230052510A /* URLable.swift in Sources */,
 				02BF7D46223F176800F6B6F0 /* Alice.swift in Sources */,
@@ -1556,6 +1590,7 @@
 				02762FEC22676FC90052510A /* DataStackModelTests.swift in Sources */,
 				02762FCB22675C890052510A /* IntValueMock.swift in Sources */,
 				02762FE722676F220052510A /* DataStackModelMock.swift in Sources */,
+				02762FF92267C69C0052510A /* DataStackStoreTests.swift in Sources */,
 				02762FD022675CB50052510A /* ArrayValueMock.swift in Sources */,
 				02762F6022661D810052510A /* URLableTests.swift in Sources */,
 				02762F40226610F60052510A /* IdentifiableMock.swift in Sources */,
@@ -1568,6 +1603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02762FF32267C4E20052510A /* DataStackStore.swift in Sources */,
 				02762F6A226620200052510A /* StringExtensions.swift in Sources */,
 				02762F56226619230052510A /* URLable.swift in Sources */,
 				02BF7D47223F176900F6B6F0 /* Alice.swift in Sources */,
@@ -1591,6 +1627,7 @@
 				02762FEB22676FC90052510A /* DataStackModelTests.swift in Sources */,
 				02762FCA22675C890052510A /* IntValueMock.swift in Sources */,
 				02762FE622676F220052510A /* DataStackModelMock.swift in Sources */,
+				02762FF82267C69C0052510A /* DataStackStoreTests.swift in Sources */,
 				02762FCF22675CB50052510A /* ArrayValueMock.swift in Sources */,
 				02762F5F22661D810052510A /* URLableTests.swift in Sources */,
 				02762F3E226610F50052510A /* IdentifiableMock.swift in Sources */,
@@ -1610,6 +1647,7 @@
 				026D39FF222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				OBJ_22 /* Alice.swift in Sources */,
 				02B93F89223FBF4F0083313F /* Booleable.swift in Sources */,
+				02762FEF2267C4E20052510A /* DataStackStore.swift in Sources */,
 				026D3A0B222CB30900C3E905 /* Identifiable.swift in Sources */,
 				02762FDB226765F20052510A /* DataStackModel.swift in Sources */,
 				02A1465E222C53290037CF5E /* Scriptable.swift in Sources */,
@@ -1636,6 +1674,7 @@
 				02762F32226610DD0052510A /* IdentifiableTests.swift in Sources */,
 				02762F3B226610F20052510A /* BooleableMock.swift in Sources */,
 				02762FE422676F220052510A /* DataStackModelMock.swift in Sources */,
+				02762FF62267C69C0052510A /* DataStackStoreTests.swift in Sources */,
 				02762FE922676FC90052510A /* DataStackModelTests.swift in Sources */,
 				02762F3A226610F20052510A /* IdentifiableMock.swift in Sources */,
 				02762F47226611250052510A /* TestTwoScriptMock.swift in Sources */,
