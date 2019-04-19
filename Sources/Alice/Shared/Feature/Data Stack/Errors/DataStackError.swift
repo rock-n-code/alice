@@ -27,6 +27,4 @@ public enum DataStackError: Error {
 	case contextNotFound
 	/// A new background context was not created by the selected container managed by `DataStack`.
 	case contextNotCreated
-	/// Any other type of `NSError` encountered while using `DataStack`.
-	case other(NSError)
 }
