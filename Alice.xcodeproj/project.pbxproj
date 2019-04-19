@@ -23,6 +23,11 @@
 /* Begin PBXBuildFile section */
 		023E5777222B46120085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E576E222B46120085CC85 /* Alice.framework */; };
 		023E57BA222B4A550085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E57B1222B4A550085CC85 /* Alice.framework */; };
+		02449D5E2269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449D5D2269D4EF00C2B7F9 /* OperationQueueName.swift */; };
+		02449D5F2269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449D5D2269D4EF00C2B7F9 /* OperationQueueName.swift */; };
+		02449D602269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449D5D2269D4EF00C2B7F9 /* OperationQueueName.swift */; };
+		02449D612269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449D5D2269D4EF00C2B7F9 /* OperationQueueName.swift */; };
+		02449D622269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449D5D2269D4EF00C2B7F9 /* OperationQueueName.swift */; };
 		025CB86A22688E6100F5DA5E /* DataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CB86922688E6100F5DA5E /* DataStackTests.swift */; };
 		025CB86B22688E6100F5DA5E /* DataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CB86922688E6100F5DA5E /* DataStackTests.swift */; };
 		025CB86C22688E6100F5DA5E /* DataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CB86922688E6100F5DA5E /* DataStackTests.swift */; };
@@ -232,6 +237,7 @@
 		023E57B1222B4A550085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E57B9222B4A550085CC85 /* Alice tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E57DA222B4AD10085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02449D5D2269D4EF00C2B7F9 /* OperationQueueName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueName.swift; sourceTree = "<group>"; };
 		025CB86922688E6100F5DA5E /* DataStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackTests.swift; sourceTree = "<group>"; };
 		025CB8882268B4BB00F5DA5E /* Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test.xcdatamodel; sourceTree = "<group>"; };
 		026D39FE222CA4F900C3E905 /* CharacterSpecial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSpecial.swift; sourceTree = "<group>"; };
@@ -533,6 +539,7 @@
 		023E574A222B436E0085CC85 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				02449D5B2269D39B00C2B7F9 /* Operations */,
 				02762FD12267646E0052510A /* Data Stack */,
 			);
 			path = Feature;
@@ -688,6 +695,7 @@
 		023E575F222B44CF0085CC85 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				02449D6A2269D88400C2B7F9 /* Operations */,
 				02762FE022676C070052510A /* Data Stack */,
 			);
 			path = Feature;
@@ -757,6 +765,29 @@
 				02A1461A222C24C40037CF5E /* AliceTests */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		02449D5B2269D39B00C2B7F9 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				02449D5C2269D4C500C2B7F9 /* Constants */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		02449D5C2269D4C500C2B7F9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				02449D5D2269D4EF00C2B7F9 /* OperationQueueName.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		02449D6A2269D88400C2B7F9 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Operations;
 			sourceTree = "<group>";
 		};
 		025CB86822688E3F00F5DA5E /* Managers */ = {
@@ -1608,6 +1639,7 @@
 				026D3A0C222CB30900C3E905 /* Identifiable.swift in Sources */,
 				026D3A00222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				02B93F8A223FBF4F0083313F /* Booleable.swift in Sources */,
+				02449D5F2269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */,
 				02762FF02267C4E20052510A /* DataStackStore.swift in Sources */,
 				02A14649222C50990037CF5E /* Script.swift in Sources */,
 				02762FDC226765F20052510A /* DataStackModel.swift in Sources */,
@@ -1654,6 +1686,7 @@
 				02762F68226620200052510A /* StringExtensions.swift in Sources */,
 				027630052267D2EA0052510A /* NSPersistentStoreDescriptionExtensions.swift in Sources */,
 				026D3A01222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
+				02449D602269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */,
 				02762FD72267652D0052510A /* DataStack.swift in Sources */,
 				026D3A0D222CB30900C3E905 /* Identifiable.swift in Sources */,
 				027630112267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
@@ -1674,6 +1707,7 @@
 				02762F69226620200052510A /* StringExtensions.swift in Sources */,
 				027630062267D2EA0052510A /* NSPersistentStoreDescriptionExtensions.swift in Sources */,
 				02762F55226619230052510A /* URLable.swift in Sources */,
+				02449D612269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */,
 				02762FD82267652D0052510A /* DataStack.swift in Sources */,
 				02BF7D46223F176800F6B6F0 /* Alice.swift in Sources */,
 				027630122267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
@@ -1718,6 +1752,7 @@
 				02762F6A226620200052510A /* StringExtensions.swift in Sources */,
 				027630072267D2EA0052510A /* NSPersistentStoreDescriptionExtensions.swift in Sources */,
 				02762F56226619230052510A /* URLable.swift in Sources */,
+				02449D622269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */,
 				02762FD92267652D0052510A /* DataStack.swift in Sources */,
 				02BF7D47223F176900F6B6F0 /* Alice.swift in Sources */,
 				027630132267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
@@ -1768,6 +1803,7 @@
 				026D39FF222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				OBJ_22 /* Alice.swift in Sources */,
 				02B93F89223FBF4F0083313F /* Booleable.swift in Sources */,
+				02449D5E2269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */,
 				02762FEF2267C4E20052510A /* DataStackStore.swift in Sources */,
 				026D3A0B222CB30900C3E905 /* Identifiable.swift in Sources */,
 				02762FDB226765F20052510A /* DataStackModel.swift in Sources */,
