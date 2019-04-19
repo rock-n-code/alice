@@ -11,6 +11,13 @@ import XCTest
 
 class BooleableTests: XCTestCase {
 
+	// MARK: Static
+	
+	static var allTests = [
+		("testInit", testInit),
+		("testAsBool", testAsBool)
+	]
+	
 	// MARK: Setup
 	
     override func setUp() {
@@ -31,11 +38,11 @@ class BooleableTests: XCTestCase {
 	// MARK: Functions tests
 	
 	func testAsBool() {
-		let testOne = BooleableMock(bool: true)
-		let testTwo = BooleableMock(bool: false)
+		let testTrue = BooleableMock(bool: true)
+		let testFalse = BooleableMock(bool: false)
 		
-		XCTAssertEqual(testOne.asBool(), true)
-		XCTAssertEqual(testTwo.asBool(), false)
+		XCTAssertEqual(testTrue.asBool(), true)
+		XCTAssertEqual(testFalse.asBool(), false)
 	}
 
 }

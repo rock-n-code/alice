@@ -6,6 +6,7 @@
 //  Copyright © 2018 Rock & Code. All rights reserved.
 //
 
+/// Protocol to identify the class name of a class or an instance.
 public protocol Identifiable {}
 
 // MARK: -
@@ -14,14 +15,18 @@ public extension Identifiable {
 	
 	// MARK: Static
 	
-	/// Returns the name of the class.
+	/// Retrieves the class name of a class.
+	///
+	/// - Returns: A string value that represents the name of the class.
 	static func identify() -> String {
 		return String(describing: self)
 	}
 	
 	// MARK: Functions
 	
-	/// Returns the instance's name of the class.
+	/// Retrieves the class name of an instance.
+	///
+	/// - Returns: A string value that represents the name of the class.
 	func identify() -> String {
 		return String(describing: type(of: self))
 	}
