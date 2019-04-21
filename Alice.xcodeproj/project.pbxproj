@@ -55,6 +55,20 @@
 		023C2D3E226B742000C896B1 /* ResumeableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D3C226B742000C896B1 /* ResumeableTests.swift */; };
 		023C2D3F226B742000C896B1 /* ResumeableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D3C226B742000C896B1 /* ResumeableTests.swift */; };
 		023C2D40226B742000C896B1 /* ResumeableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D3C226B742000C896B1 /* ResumeableTests.swift */; };
+		023C2D44226BB48600C896B1 /* OperationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D43226BB48600C896B1 /* OperationTypes.swift */; };
+		023C2D45226BB48600C896B1 /* OperationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D43226BB48600C896B1 /* OperationTypes.swift */; };
+		023C2D46226BB48600C896B1 /* OperationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D43226BB48600C896B1 /* OperationTypes.swift */; };
+		023C2D47226BB48600C896B1 /* OperationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D43226BB48600C896B1 /* OperationTypes.swift */; };
+		023C2D48226BB48600C896B1 /* OperationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D43226BB48600C896B1 /* OperationTypes.swift */; };
+		023C2D4A226BB53700C896B1 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D49226BB53700C896B1 /* ConcurrentOperation.swift */; };
+		023C2D4B226BB53700C896B1 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D49226BB53700C896B1 /* ConcurrentOperation.swift */; };
+		023C2D4C226BB53700C896B1 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D49226BB53700C896B1 /* ConcurrentOperation.swift */; };
+		023C2D4D226BB53700C896B1 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D49226BB53700C896B1 /* ConcurrentOperation.swift */; };
+		023C2D4E226BB53700C896B1 /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D49226BB53700C896B1 /* ConcurrentOperation.swift */; };
+		023C2D5B226C85B000C896B1 /* ConcurrentOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D5A226C85B000C896B1 /* ConcurrentOperationTests.swift */; };
+		023C2D5C226C85B000C896B1 /* ConcurrentOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D5A226C85B000C896B1 /* ConcurrentOperationTests.swift */; };
+		023C2D5D226C85B000C896B1 /* ConcurrentOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D5A226C85B000C896B1 /* ConcurrentOperationTests.swift */; };
+		023C2D5E226C85B000C896B1 /* ConcurrentOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C2D5A226C85B000C896B1 /* ConcurrentOperationTests.swift */; };
 		023E5777222B46120085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E576E222B46120085CC85 /* Alice.framework */; };
 		023E57BA222B4A550085CC85 /* Alice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E57B1222B4A550085CC85 /* Alice.framework */; };
 		02449D5E2269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449D5D2269D4EF00C2B7F9 /* OperationQueueName.swift */; };
@@ -278,6 +292,9 @@
 		023C2D32226A95C300C896B1 /* ResumeableMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeableMock.swift; sourceTree = "<group>"; };
 		023C2D37226B724B00C896B1 /* PausableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PausableTests.swift; sourceTree = "<group>"; };
 		023C2D3C226B742000C896B1 /* ResumeableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeableTests.swift; sourceTree = "<group>"; };
+		023C2D43226BB48600C896B1 /* OperationTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTypes.swift; sourceTree = "<group>"; };
+		023C2D49226BB53700C896B1 /* ConcurrentOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentOperation.swift; sourceTree = "<group>"; };
+		023C2D5A226C85B000C896B1 /* ConcurrentOperationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrentOperationTests.swift; sourceTree = "<group>"; };
 		023E576E222B46120085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E5776222B46120085CC85 /* Alice macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		023E5795222B48AF0085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -536,6 +553,30 @@
 				023C2D1C226A7E7F00C896B1 /* OperationQueueExtensionsTests.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		023C2D41226BA48F00C896B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				023C2D49226BB53700C896B1 /* ConcurrentOperation.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		023C2D42226BB46A00C896B1 /* Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				023C2D43226BB48600C896B1 /* OperationTypes.swift */,
+			);
+			path = Definitions;
+			sourceTree = "<group>";
+		};
+		023C2D4F226BBABD00C896B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				023C2D5A226C85B000C896B1 /* ConcurrentOperationTests.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		023E5744222B43260085CC85 /* Shared */ = {
@@ -828,7 +869,9 @@
 		02449D5B2269D39B00C2B7F9 /* Operations */ = {
 			isa = PBXGroup;
 			children = (
+				023C2D42226BB46A00C896B1 /* Definitions */,
 				02449D5C2269D4C500C2B7F9 /* Constants */,
+				023C2D41226BA48F00C896B1 /* Classes */,
 				02449D632269D55B00C2B7F9 /* Extensions */,
 			);
 			path = Operations;
@@ -853,6 +896,7 @@
 		02449D6A2269D88400C2B7F9 /* Operations */ = {
 			isa = PBXGroup;
 			children = (
+				023C2D4F226BBABD00C896B1 /* Classes */,
 				023C2D1B226A7E6300C896B1 /* Extensions */,
 			);
 			path = Operations;
@@ -1712,6 +1756,7 @@
 				02762F52226619230052510A /* URLable.swift in Sources */,
 				023C2D29226A936D00C896B1 /* Resumeable.swift in Sources */,
 				026D3A0C222CB30900C3E905 /* Identifiable.swift in Sources */,
+				023C2D4B226BB53700C896B1 /* ConcurrentOperation.swift in Sources */,
 				026D3A00222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				02B93F8A223FBF4F0083313F /* Booleable.swift in Sources */,
 				02449D5F2269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */,
@@ -1719,6 +1764,7 @@
 				02A14649222C50990037CF5E /* Script.swift in Sources */,
 				023C2D23226A935900C896B1 /* Pauseable.swift in Sources */,
 				02762FDC226765F20052510A /* DataStackModel.swift in Sources */,
+				023C2D45226BB48600C896B1 /* OperationTypes.swift in Sources */,
 				02BF7D44223F176600F6B6F0 /* Alice.swift in Sources */,
 				02762FFD2267C92A0052510A /* DataStackError.swift in Sources */,
 			);
@@ -1732,6 +1778,7 @@
 				023C2D34226A95C300C896B1 /* ResumeableMock.swift in Sources */,
 				02762FCE22675CB50052510A /* ArrayValueMock.swift in Sources */,
 				02762F4C226611290052510A /* TestOneScriptMock.swift in Sources */,
+				023C2D5C226C85B000C896B1 /* ConcurrentOperationTests.swift in Sources */,
 				025CB86B22688E6100F5DA5E /* DataStackTests.swift in Sources */,
 				023C2D3E226B742000C896B1 /* ResumeableTests.swift in Sources */,
 				02762F5E22661D810052510A /* URLableTests.swift in Sources */,
@@ -1773,8 +1820,10 @@
 				02762FD72267652D0052510A /* DataStack.swift in Sources */,
 				026D3A0D222CB30900C3E905 /* Identifiable.swift in Sources */,
 				027630112267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
+				023C2D46226BB48600C896B1 /* OperationTypes.swift in Sources */,
 				02762FFE2267C92A0052510A /* DataStackError.swift in Sources */,
 				023C2D2A226A936D00C896B1 /* Resumeable.swift in Sources */,
+				023C2D4C226BB53700C896B1 /* ConcurrentOperation.swift in Sources */,
 				02762FDD226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FB8226751F40052510A /* Value.swift in Sources */,
 				02BF7D45223F176700F6B6F0 /* Alice.swift in Sources */,
@@ -1797,8 +1846,10 @@
 				02762FD82267652D0052510A /* DataStack.swift in Sources */,
 				02BF7D46223F176800F6B6F0 /* Alice.swift in Sources */,
 				027630122267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
+				023C2D47226BB48600C896B1 /* OperationTypes.swift in Sources */,
 				02762FFF2267C92A0052510A /* DataStackError.swift in Sources */,
 				023C2D2B226A936D00C896B1 /* Resumeable.swift in Sources */,
+				023C2D4D226BB53700C896B1 /* ConcurrentOperation.swift in Sources */,
 				02762FDE226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FB9226751F40052510A /* Value.swift in Sources */,
 				02B93F8C223FBF4F0083313F /* Booleable.swift in Sources */,
@@ -1828,6 +1879,7 @@
 				02762FE722676F220052510A /* DataStackModelMock.swift in Sources */,
 				02762FF92267C69C0052510A /* DataStackStoreTests.swift in Sources */,
 				025CB88C2268B4BB00F5DA5E /* Test.xcdatamodeld in Sources */,
+				023C2D5E226C85B000C896B1 /* ConcurrentOperationTests.swift in Sources */,
 				02762FD022675CB50052510A /* ArrayValueMock.swift in Sources */,
 				02762F6022661D810052510A /* URLableTests.swift in Sources */,
 				023C2D40226B742000C896B1 /* ResumeableTests.swift in Sources */,
@@ -1851,8 +1903,10 @@
 				02762FD92267652D0052510A /* DataStack.swift in Sources */,
 				02BF7D47223F176900F6B6F0 /* Alice.swift in Sources */,
 				027630132267E5800052510A /* NSManagedObjectContextKind.swift in Sources */,
+				023C2D48226BB48600C896B1 /* OperationTypes.swift in Sources */,
 				027630002267C92A0052510A /* DataStackError.swift in Sources */,
 				023C2D2C226A936D00C896B1 /* Resumeable.swift in Sources */,
+				023C2D4E226BB53700C896B1 /* ConcurrentOperation.swift in Sources */,
 				02762FDF226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FBA226751F40052510A /* Value.swift in Sources */,
 				02B93F8D223FBF4F0083313F /* Booleable.swift in Sources */,
@@ -1882,6 +1936,7 @@
 				02762FE622676F220052510A /* DataStackModelMock.swift in Sources */,
 				02762FF82267C69C0052510A /* DataStackStoreTests.swift in Sources */,
 				025CB88B2268B4BB00F5DA5E /* Test.xcdatamodeld in Sources */,
+				023C2D5D226C85B000C896B1 /* ConcurrentOperationTests.swift in Sources */,
 				02762FCF22675CB50052510A /* ArrayValueMock.swift in Sources */,
 				02762F5F22661D810052510A /* URLableTests.swift in Sources */,
 				023C2D3F226B742000C896B1 /* ResumeableTests.swift in Sources */,
@@ -1906,6 +1961,7 @@
 				02762F51226619230052510A /* URLable.swift in Sources */,
 				023C2D28226A936D00C896B1 /* Resumeable.swift in Sources */,
 				026D39FF222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
+				023C2D4A226BB53700C896B1 /* ConcurrentOperation.swift in Sources */,
 				OBJ_22 /* Alice.swift in Sources */,
 				02B93F89223FBF4F0083313F /* Booleable.swift in Sources */,
 				02449D5E2269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */,
@@ -1913,6 +1969,7 @@
 				026D3A0B222CB30900C3E905 /* Identifiable.swift in Sources */,
 				023C2D22226A935900C896B1 /* Pauseable.swift in Sources */,
 				02762FDB226765F20052510A /* DataStackModel.swift in Sources */,
+				023C2D44226BB48600C896B1 /* OperationTypes.swift in Sources */,
 				02A1465E222C53290037CF5E /* Scriptable.swift in Sources */,
 				02762FFC2267C92A0052510A /* DataStackError.swift in Sources */,
 			);
@@ -1938,6 +1995,7 @@
 				023C2D17226A7DDE00C896B1 /* OperationQueueNameMock.swift in Sources */,
 				023C2D38226B724B00C896B1 /* PausableTests.swift in Sources */,
 				0276300A2267D7DC0052510A /* NSPersistentStoreDescriptionExtensionsTests.swift in Sources */,
+				023C2D5B226C85B000C896B1 /* ConcurrentOperationTests.swift in Sources */,
 				02762F43226611250052510A /* ScriptableTests.swift in Sources */,
 				023C2D2E226A95AE00C896B1 /* PausableMock.swift in Sources */,
 				02762F32226610DD0052510A /* IdentifiableTests.swift in Sources */,
