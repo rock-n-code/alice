@@ -54,13 +54,33 @@ extension OperationQueue {
 	}
 	
 	/// Pause the queue.
+	///
+	/// - Note: This function will pause all operations that implemented the `PauseableOperation` protocol.
 	public func pauseAllOperations() {
 		isSuspended = true
+		
+		operations.forEach { operation in
+			guard let pauseable = operation as? PauseableOperation else {
+				return
+			}
+			
+			pauseable.pause()
+		}
 	}
 	
 	/// Resume the queue.
+	///
+	/// - Note: This function will pause all operations that implemented the `ResumeableOperation` protocol.
 	public func resumeAllOperations() {
 		isSuspended = false
+		
+		operations.forEach { operation in
+			guard let resumeable = operation as? ResumeableOperation else {
+				return
+			}
+			
+			resumeable.resume()
+		}
 	}
 	
 }
