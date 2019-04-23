@@ -111,16 +111,36 @@ class OperationQueueExtensionsTests: XCTestCase {
 	}
 	
 	func testPauseAllOperations() {
+		queue.addOperations([
+			ConcurrentOperation(),
+			Operation(),
+			ConcurrentOperation(),
+		])
 		queue.pauseAllOperations()
 		
 		XCTAssertTrue(queue.isSuspended)
+		
+		queue.operations.forEach { operation in
+			XCTAssertFalse(operation.isExecuting)
+		}
 	}
 	
 	func testResumeAlloperations() {
+		queue.addOperations([
+			ConcurrentOperation(),
+			Operation(),
+			ConcurrentOperation(),
+		])
 		queue.pauseAllOperations()
 		queue.resumeAllOperations()
-		
+
 		XCTAssertFalse(queue.isSuspended)
+		
+		queue.isSuspended = true
+		
+		queue.operations.forEach { operation in
+			XCTAssertTrue(operation.isExecuting)
+		}
 	}
 
 }
