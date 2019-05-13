@@ -41,6 +41,8 @@ class ConcurrentOperationTests: XCTestCase {
 		let operation = ConcurrentOperation()
 		
 		XCTAssertNotNil(operation)
+		XCTAssertEqual(operation.rawState, .ready)
+		XCTAssertTrue(operation.isReady)
 		XCTAssertFalse(operation.isExecuting)
 		XCTAssertFalse(operation.isFinished)
 		XCTAssertFalse(operation.isCancelled)
@@ -54,6 +56,8 @@ class ConcurrentOperationTests: XCTestCase {
 		
 		operation.cancel()
 		
+		XCTAssertEqual(operation.rawState, .ready)
+		XCTAssertTrue(operation.isReady)
 		XCTAssertFalse(operation.isExecuting)
 		XCTAssertFalse(operation.isFinished)
 		XCTAssertTrue(operation.isCancelled)
@@ -64,6 +68,8 @@ class ConcurrentOperationTests: XCTestCase {
 		
 		operation.prepare()
 		
+		XCTAssertEqual(operation.rawState, .executing)
+		XCTAssertFalse(operation.isReady)
 		XCTAssertTrue(operation.isExecuting)
 		XCTAssertFalse(operation.isFinished)
 		XCTAssertFalse(operation.isCancelled)
@@ -75,6 +81,8 @@ class ConcurrentOperationTests: XCTestCase {
 		operation.cancel()
 		operation.prepare()
 		
+		XCTAssertEqual(operation.rawState, .finished)
+		XCTAssertFalse(operation.isReady)
 		XCTAssertFalse(operation.isExecuting)
 		XCTAssertTrue(operation.isFinished)
 		XCTAssertTrue(operation.isCancelled)
@@ -85,6 +93,8 @@ class ConcurrentOperationTests: XCTestCase {
 		
 		operation.finish()
 		
+		XCTAssertEqual(operation.rawState, .finished)
+		XCTAssertFalse(operation.isReady)
 		XCTAssertFalse(operation.isExecuting)
 		XCTAssertTrue(operation.isFinished)
 		XCTAssertFalse(operation.isCancelled)
@@ -104,6 +114,8 @@ class ConcurrentOperationTests: XCTestCase {
 		operation.prepare()
 		operation.pause()
 		
+		XCTAssertEqual(operation.rawState, .paused)
+		XCTAssertFalse(operation.isReady)
 		XCTAssertFalse(operation.isExecuting)
 		XCTAssertFalse(operation.isFinished)
 		XCTAssertFalse(operation.isCancelled)
@@ -118,6 +130,8 @@ class ConcurrentOperationTests: XCTestCase {
 		operation.pause()
 		operation.resume()
 		
+		XCTAssertEqual(operation.rawState, .executing)
+		XCTAssertFalse(operation.isReady)
 		XCTAssertTrue(operation.isExecuting)
 		XCTAssertFalse(operation.isFinished)
 		XCTAssertFalse(operation.isCancelled)

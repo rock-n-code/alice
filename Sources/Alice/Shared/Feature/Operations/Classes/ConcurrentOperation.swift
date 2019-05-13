@@ -12,30 +12,30 @@ open class ConcurrentOperation: Operation {
 	
 	// MARK: Constants
 	
-	private struct Key {
-		fileprivate static let isExecuting = "isExecuting"
-		fileprivate static let isFinished = "isFinished"
-	}
+	private let queueName = #"com.rockncode.alice.shared.operation.state"#
+	private let stateKey = #"state"#
 	
 	// MARK: Properties
-
-	/// Set if the operation is executing.
-	private var _executing: Bool {
-		willSet {
-			willChangeValue(forKey: Key.isExecuting)
-		}
-		didSet {
-			didChangeValue(forKey: Key.isExecuting)
-		}
-	}
 	
-	/// Set if the operation is finished.
-	private var _finished: Bool {
-		willSet {
-			willChangeValue(forKey: Key.isFinished)
+	private let stateQueue: DispatchQueue
+	
+	internal var rawState: Operation.State
+	
+	@objc
+	private dynamic var state: Operation.State {
+		get {
+			return stateQueue.sync(execute: {
+				rawState
+			})
 		}
-		didSet {
-			didChangeValue(forKey: Key.isFinished)
+		set {
+			willChangeValue(forKey: stateKey)
+			
+			stateQueue.sync(flags: .barrier) {
+				rawState = newValue
+			}
+			
+			didChangeValue(forKey: stateKey)
 		}
 	}
 	
@@ -43,8 +43,9 @@ open class ConcurrentOperation: Operation {
 	
 	/// Default initializer.
 	public override init() {
-		self._executing = false
-		self._finished = false
+		self.stateQueue = DispatchQueue(label: queueName,
+										attributes: .concurrent)
+		self.rawState = .ready
 	}
 	
 	// MARK: Functions
@@ -58,32 +59,54 @@ open class ConcurrentOperation: Operation {
 			return
 		}
 		
-		_executing = true
+		rawState = .executing
 	}
 	
 	/// Notifies the completion of concurrent task and hence the completion of the operation.
 	///
 	/// - Note: Must be called when the operation is finished.
 	public func finish() {
-		_executing = false
-		_finished = true
+		rawState = .finished
 	}
 	
 	// MARK: Operation
 	
 	/// Sets the operation as asynchronous.
-	open override var isAsynchronous: Bool {
+	public final override var isAsynchronous: Bool {
 		return true
 	}
 	
+	/// Returns a boolean value that represents whether the operation is ready or not.
+	public final override var isReady: Bool {
+		return rawState == .ready
+			&& super.isReady
+	}
+	
 	/// Returns a boolean value that represents whether the operation is executing or not.
-	open override var isExecuting: Bool {
-		return _executing
+	public final override var isExecuting: Bool {
+		return rawState == .executing
 	}
 	
 	/// Returns a boolean value that represents whether the operation is finished or not.
-	open override var isFinished: Bool {
-		return _finished
+	public final override var isFinished: Bool {
+		return rawState == .finished
+	}
+	
+	// MARK: NSObject
+	
+	@objc
+	private dynamic class func keyPathsForValuesAffectingIsReady() -> Set<String> {
+		return ["state"]
+	}
+	
+	@objc
+	private dynamic class func keyPathsForValuesAffectingIsExecuting() -> Set<String> {
+		return ["state"]
+	}
+	
+	@objc
+	private dynamic class func keyPathsForValuesAffectingIsFinished() -> Set<String> {
+		return ["state"]
 	}
 	
 }
@@ -98,7 +121,7 @@ extension ConcurrentOperation: PauseableOperation {
 	///
 	/// - Note: Must be overridend by subclass to get a custom pause action.
 	public func pause() {
-		_executing = false
+		rawState = .paused
 	}
 
 }
@@ -113,7 +136,7 @@ extension ConcurrentOperation: ResumeableOperation {
 	///
 	/// - Note: Must be overridend by subclass to get a custom resume action.
 	public func resume() {
-		_executing = true
+		rawState = .executing
 	}
 
 }
