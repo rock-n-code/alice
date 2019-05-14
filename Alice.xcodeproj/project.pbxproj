@@ -81,6 +81,11 @@
 		02449D672269D5CF00C2B7F9 /* OperationQueueExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449D642269D5CF00C2B7F9 /* OperationQueueExtensions.swift */; };
 		02449D682269D5CF00C2B7F9 /* OperationQueueExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449D642269D5CF00C2B7F9 /* OperationQueueExtensions.swift */; };
 		02449D692269D5CF00C2B7F9 /* OperationQueueExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02449D642269D5CF00C2B7F9 /* OperationQueueExtensions.swift */; };
+		024A257F22895A5E0080123A /* OperationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A257E22895A5E0080123A /* OperationState.swift */; };
+		024A258022895A5E0080123A /* OperationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A257E22895A5E0080123A /* OperationState.swift */; };
+		024A258122895A5E0080123A /* OperationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A257E22895A5E0080123A /* OperationState.swift */; };
+		024A258222895A5E0080123A /* OperationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A257E22895A5E0080123A /* OperationState.swift */; };
+		024A258322895A5E0080123A /* OperationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A257E22895A5E0080123A /* OperationState.swift */; };
 		025CB86A22688E6100F5DA5E /* DataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CB86922688E6100F5DA5E /* DataStackTests.swift */; };
 		025CB86B22688E6100F5DA5E /* DataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CB86922688E6100F5DA5E /* DataStackTests.swift */; };
 		025CB86C22688E6100F5DA5E /* DataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CB86922688E6100F5DA5E /* DataStackTests.swift */; };
@@ -303,6 +308,7 @@
 		023E57DA222B4AD10085CC85 /* Alice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02449D5D2269D4EF00C2B7F9 /* OperationQueueName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueName.swift; sourceTree = "<group>"; };
 		02449D642269D5CF00C2B7F9 /* OperationQueueExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueExtensions.swift; sourceTree = "<group>"; };
+		024A257E22895A5E0080123A /* OperationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationState.swift; sourceTree = "<group>"; };
 		025CB86922688E6100F5DA5E /* DataStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStackTests.swift; sourceTree = "<group>"; };
 		025CB8882268B4BB00F5DA5E /* Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test.xcdatamodel; sourceTree = "<group>"; };
 		026D39FE222CA4F900C3E905 /* CharacterSpecial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSpecial.swift; sourceTree = "<group>"; };
@@ -871,6 +877,7 @@
 			children = (
 				023C2D42226BB46A00C896B1 /* Definitions */,
 				02449D5C2269D4C500C2B7F9 /* Constants */,
+				024A257D22895A2F0080123A /* Enumerations */,
 				023C2D41226BA48F00C896B1 /* Classes */,
 				02449D632269D55B00C2B7F9 /* Extensions */,
 			);
@@ -900,6 +907,14 @@
 				023C2D1B226A7E6300C896B1 /* Extensions */,
 			);
 			path = Operations;
+			sourceTree = "<group>";
+		};
+		024A257D22895A2F0080123A /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				024A257E22895A5E0080123A /* OperationState.swift */,
+			);
+			path = Enumerations;
 			sourceTree = "<group>";
 		};
 		025CB86822688E3F00F5DA5E /* Managers */ = {
@@ -1758,6 +1773,7 @@
 				023C2D29226A936D00C896B1 /* Resumeable.swift in Sources */,
 				026D3A0C222CB30900C3E905 /* Identifiable.swift in Sources */,
 				023C2D4B226BB53700C896B1 /* ConcurrentOperation.swift in Sources */,
+				024A258022895A5E0080123A /* OperationState.swift in Sources */,
 				026D3A00222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				02B93F8A223FBF4F0083313F /* Booleable.swift in Sources */,
 				02449D5F2269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */,
@@ -1825,6 +1841,7 @@
 				02762FFE2267C92A0052510A /* DataStackError.swift in Sources */,
 				023C2D2A226A936D00C896B1 /* Resumeable.swift in Sources */,
 				023C2D4C226BB53700C896B1 /* ConcurrentOperation.swift in Sources */,
+				024A258122895A5E0080123A /* OperationState.swift in Sources */,
 				02762FDD226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FB8226751F40052510A /* Value.swift in Sources */,
 				02BF7D45223F176700F6B6F0 /* Alice.swift in Sources */,
@@ -1851,6 +1868,7 @@
 				02762FFF2267C92A0052510A /* DataStackError.swift in Sources */,
 				023C2D2B226A936D00C896B1 /* Resumeable.swift in Sources */,
 				023C2D4D226BB53700C896B1 /* ConcurrentOperation.swift in Sources */,
+				024A258222895A5E0080123A /* OperationState.swift in Sources */,
 				02762FDE226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FB9226751F40052510A /* Value.swift in Sources */,
 				02B93F8C223FBF4F0083313F /* Booleable.swift in Sources */,
@@ -1908,6 +1926,7 @@
 				027630002267C92A0052510A /* DataStackError.swift in Sources */,
 				023C2D2C226A936D00C896B1 /* Resumeable.swift in Sources */,
 				023C2D4E226BB53700C896B1 /* ConcurrentOperation.swift in Sources */,
+				024A258322895A5E0080123A /* OperationState.swift in Sources */,
 				02762FDF226765F20052510A /* DataStackModel.swift in Sources */,
 				02762FBA226751F40052510A /* Value.swift in Sources */,
 				02B93F8D223FBF4F0083313F /* Booleable.swift in Sources */,
@@ -1963,6 +1982,7 @@
 				023C2D28226A936D00C896B1 /* Resumeable.swift in Sources */,
 				026D39FF222CA4F900C3E905 /* CharacterSpecial.swift in Sources */,
 				023C2D4A226BB53700C896B1 /* ConcurrentOperation.swift in Sources */,
+				024A257F22895A5E0080123A /* OperationState.swift in Sources */,
 				OBJ_22 /* Alice.swift in Sources */,
 				02B93F89223FBF4F0083313F /* Booleable.swift in Sources */,
 				02449D5E2269D4EF00C2B7F9 /* OperationQueueName.swift in Sources */,
