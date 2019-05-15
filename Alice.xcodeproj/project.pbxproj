@@ -435,20 +435,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		020C842322401EB900D570BB /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
-		020C842422401EC100D570BB /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		020C842522401EDE00D570BB /* Mock */ = {
 			isa = PBXGroup;
 			children = (
@@ -757,46 +743,6 @@
 			path = watchOS;
 			sourceTree = "<group>";
 		};
-		023E5759222B44860085CC85 /* Linux */ = {
-			isa = PBXGroup;
-			children = (
-				023E575B222B44930085CC85 /* Common */,
-				023E575A222B448D0085CC85 /* Feature */,
-			);
-			path = Linux;
-			sourceTree = "<group>";
-		};
-		023E575A222B448D0085CC85 /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Feature;
-			sourceTree = "<group>";
-		};
-		023E575B222B44930085CC85 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		023E575C222B44AA0085CC85 /* Linux */ = {
-			isa = PBXGroup;
-			children = (
-				020C842422401EC100D570BB /* Common */,
-				023E575D222B44B20085CC85 /* Feature */,
-				020C842322401EB900D570BB /* Mock */,
-			);
-			path = Linux;
-			sourceTree = "<group>";
-		};
-		023E575D222B44B20085CC85 /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Feature;
-			sourceTree = "<group>";
-		};
 		023E575F222B44CF0085CC85 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
@@ -1102,7 +1048,6 @@
 				02A1461B222C258C0037CF5E /* iOS */,
 				02A14624222C25B30037CF5E /* tvOS */,
 				02A14628222C25BF0037CF5E /* watchOS */,
-				02A1463E222C2A600037CF5E /* Linux */,
 			);
 			path = Alice;
 			sourceTree = "<group>";
@@ -1115,7 +1060,6 @@
 				02A14632222C26500037CF5E /* iOS */,
 				02A1462D222C26500037CF5E /* tvOS */,
 				02A14631222C26500037CF5E /* watchOS */,
-				02A14641222C2A7D0037CF5E /* Linux */,
 			);
 			path = AliceTests;
 			sourceTree = "<group>";
@@ -1264,20 +1208,6 @@
 			path = Bridges;
 			sourceTree = "<group>";
 		};
-		02A1463E222C2A600037CF5E /* Linux */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Linux;
-			sourceTree = "<group>";
-		};
-		02A14641222C2A7D0037CF5E /* Linux */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Linux;
-			sourceTree = "<group>";
-		};
 		02A14645222C50980037CF5E /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
@@ -1337,7 +1267,6 @@
 				023E5755222B44130085CC85 /* iOS */,
 				023E5756222B44190085CC85 /* tvOS */,
 				023E5757222B441F0085CC85 /* watchOS */,
-				023E575C222B44AA0085CC85 /* Linux */,
 				OBJ_12 /* AliceTests.swift */,
 				OBJ_13 /* XCTestManifests.swift */,
 			);
@@ -1389,7 +1318,6 @@
 				023E5746222B43330085CC85 /* iOS */,
 				023E5747222B433B0085CC85 /* tvOS */,
 				023E5748222B43460085CC85 /* watchOS */,
-				023E5759222B44860085CC85 /* Linux */,
 				OBJ_9 /* Alice.swift */,
 			);
 			name = Alice;
