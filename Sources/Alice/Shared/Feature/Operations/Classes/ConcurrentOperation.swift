@@ -53,19 +53,24 @@ open class ConcurrentOperation: Operation {
 	/// Prepares the operation for execution.
 	///
 	/// - Note: Must be called at the beginning of the overriden `start()` function.
-	public func prepare() {
+	open func prepare() {
 		guard !isCancelled else {
 			finish()
 			return
 		}
-		
+	}
+	
+	/// Notifies the execution of the concurrent task.
+	///
+	/// - Note: Must be called when the operation is ready to start its execution.
+	public final func execute() {
 		rawState = .executing
 	}
 	
 	/// Notifies the completion of concurrent task and hence the completion of the operation.
 	///
 	/// - Note: Must be called when the operation is finished.
-	public func finish() {
+	public final func finish() {
 		rawState = .finished
 	}
 	
@@ -120,7 +125,7 @@ extension ConcurrentOperation: PauseableOperation {
 	/// Pause the operation.
 	///
 	/// - Note: Must be overridend by subclass to get a custom pause action.
-	public func pause() {
+	public final func pause() {
 		rawState = .paused
 	}
 
@@ -135,7 +140,7 @@ extension ConcurrentOperation: ResumeableOperation {
 	/// Resumes the execution of the operation.
 	///
 	/// - Note: Must be overridend by subclass to get a custom resume action.
-	public func resume() {
+	public final func resume() {
 		rawState = .executing
 	}
 
