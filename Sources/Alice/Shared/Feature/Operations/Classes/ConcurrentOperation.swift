@@ -50,23 +50,18 @@ open class ConcurrentOperation: Operation {
 	
 	// MARK: Functions
 	
-	/// Prepares the operation for execution.
+	/// Checks if the operation is cancelled before starts its execution.
 	///
 	/// - Note: Must be called at the beginning of the overriden `start()` function.
-	open func prepare() {
+	public final func isCancelled() {
 		guard !isCancelled else {
 			finish()
 			return
 		}
-	}
-	
-	/// Notifies the execution of the concurrent task.
-	///
-	/// - Note: Must be called when the operation is ready to start its execution.
-	public final func execute() {
+		
 		rawState = .executing
 	}
-	
+
 	/// Notifies the completion of concurrent task and hence the completion of the operation.
 	///
 	/// - Note: Must be called when the operation is finished.
