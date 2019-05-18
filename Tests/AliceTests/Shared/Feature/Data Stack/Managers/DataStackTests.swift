@@ -47,14 +47,8 @@ class DataStackTests: XCTestCase {
 
 	// MARK: Setup
 	
-    override func setUp() {
-		super.setUp()
-    }
-
     override func tearDown() {
-		try? manager.remove(.test)
-
-		super.tearDown()
+		_ = try? manager.remove(.test)
     }
 	
 	// MARK: Initializers tests

@@ -19,16 +19,6 @@ class DataStackStoreTests: XCTestCase {
 		("testExtensionValue", testExtensionValue),
 	]
 	
-	// MARK: Setup
-	
-    override func setUp() {
-		super.setUp()
-    }
-
-    override func tearDown() {
-		super.tearDown()
-    }
-
 	// MARK: Properties tests
 	
 	func testRawValue() {
