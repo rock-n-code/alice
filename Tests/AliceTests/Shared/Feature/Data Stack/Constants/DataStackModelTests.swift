@@ -18,16 +18,6 @@ class DataStackModelTests: XCTestCase {
 		("testEquality", testEquality),
 	]
 	
-	// MARK: Setup
-	
-    override func setUp() {
-		super.setUp()
-    }
-
-    override func tearDown() {
-		super.tearDown()
-    }
-	
 	// MARK: Properties tests
 	
 	func testHashValue() {

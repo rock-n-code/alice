@@ -30,14 +30,8 @@ class OperationQueueExtensionsTests: XCTestCase {
 	
 	// MARK: Setup
 	
-    override func setUp() {
-		super.setUp()
-    }
-
     override func tearDown() {
 		queue.cancelAllOperations()
-		
-		super.tearDown()
     }
 	
 	// MARK: Initializers tests

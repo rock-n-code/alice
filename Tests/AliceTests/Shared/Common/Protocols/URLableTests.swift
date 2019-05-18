@@ -15,16 +15,6 @@ class URLableTests: XCTestCase {
 		("testAsURL", testAsURL),
 	]
 	
-	// MARK: Setup
-	
-    override func setUp() {
-		super.setUp()
-    }
-
-    override func tearDown() {
-		super.tearDown()
-    }
-	
 	// MARK: Functions tests
 
     func testAsURL() {

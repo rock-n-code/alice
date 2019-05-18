@@ -20,16 +20,6 @@ class NSPersistentStoreDescriptionExtensionsTests: XCTestCase {
 		("testMakeDefaultForModelOfType", testMakeDefaultForModelOfType),
 	]
 	
-	// MARK: Setup
-	
-    override func setUp() {
-		super.setUp()
-    }
-
-    override func tearDown() {
-		super.tearDown()
-    }
-
 	// MARK: Static tests
 	
     func testMakeForModelOfTypeSQL() {
