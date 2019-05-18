@@ -18,16 +18,6 @@ class StringExtensionsTests: XCTestCase {
 		("testAsURL", testAsURL),
 	]
 	
-	// MARK: Setup
-	
-    override func setUp() {
-		super.setUp()
-    }
-
-    override func tearDown() {
-		super.tearDown()
-    }
-
 	// MARK: Functions
 	
     func testAsURL() {

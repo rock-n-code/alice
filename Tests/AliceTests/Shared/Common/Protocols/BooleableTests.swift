@@ -18,16 +18,6 @@ class BooleableTests: XCTestCase {
 		("testAsBool", testAsBool)
 	]
 	
-	// MARK: Setup
-	
-    override func setUp() {
-		super.setUp()
-    }
-
-    override func tearDown() {
-		super.tearDown()
-    }
-	
 	// MARK: Initializers tests
 	
 	func testInit() {

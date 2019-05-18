@@ -16,16 +16,6 @@ class ValueTests: XCTestCase {
 		("testValue", testValue),
 	]
 	
-	// MARK: Setup
-	
-    override func setUp() {
-		super.setUp()
-    }
-
-    override func tearDown() {
-		super.tearDown()
-    }
-	
 	// MARK: Initializers tests
 
 	func testInit() {

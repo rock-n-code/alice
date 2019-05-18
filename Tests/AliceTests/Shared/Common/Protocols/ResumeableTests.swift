@@ -17,16 +17,6 @@ class ResumeableTests: XCTestCase {
 		("testResume", testResume),
 	]
 	
-	// MARK: Setup
-	
-    override func setUp() {
-		super.setUp()
-    }
-
-    override func tearDown() {
-		super.tearDown()
-    }
-
 	// MARK: Functions tests
 	
 	func testResume() {

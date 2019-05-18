@@ -17,8 +17,8 @@ class ConcurrentOperationTests: XCTestCase {
 	static var allTests = [
 		("testInit", testInit),
 		("testCancel", testCancel),
-		("testPrepare", testPrepare),
-		("testPrepareWhenCancelled", testPrepareWhenCancelled),
+		("testIsCancelled", testIsCancelled),
+		("testIsCancelledWhenCancelled", testIsCancelledWhenCancelled),
 		("testExecute", testExecute),
 		("testFinish", testFinish),
 		("testIsAsynchronous", testIsAsynchronous),
@@ -26,16 +26,6 @@ class ConcurrentOperationTests: XCTestCase {
 		("testResume", testResume),
 	]
 	
-	// MARK: Setup
-	
-	override func setUp() {
-		super.setUp()
-	}
-	
-	override func tearDown() {
-		super.tearDown()
-	}
-
 	// MARK: Initializers tests
 	
 	func testInit() {
@@ -64,23 +54,23 @@ class ConcurrentOperationTests: XCTestCase {
 		XCTAssertTrue(operation.isCancelled)
 	}
 	
-	func testPrepare() {
+	func testIsCancelled() {
 		let operation = ConcurrentOperation()
 		
-		operation.prepare()
+		operation.isCancelled()
 		
-		XCTAssertEqual(operation.rawState, .ready)
-		XCTAssertTrue(operation.isReady)
-		XCTAssertFalse(operation.isExecuting)
+		XCTAssertEqual(operation.rawState, .executing)
+		XCTAssertFalse(operation.isReady)
+		XCTAssertTrue(operation.isExecuting)
 		XCTAssertFalse(operation.isFinished)
 		XCTAssertFalse(operation.isCancelled)
 	}
 	
-	func testPrepareWhenCancelled() {
+	func testIsCancelledWhenCancelled() {
 		let operation = ConcurrentOperation()
 		
 		operation.cancel()
-		operation.prepare()
+		operation.isCancelled()
 		
 		XCTAssertEqual(operation.rawState, .finished)
 		XCTAssertFalse(operation.isReady)
@@ -92,7 +82,7 @@ class ConcurrentOperationTests: XCTestCase {
 	func testExecute() {
 		let operation = ConcurrentOperation()
 		
-		operation.execute()
+		operation.isCancelled()
 		
 		XCTAssertEqual(operation.rawState, .executing)
 		XCTAssertFalse(operation.isReady)
@@ -124,8 +114,7 @@ class ConcurrentOperationTests: XCTestCase {
 	func testPause() {
 		let operation = ConcurrentOperation()
 		
-		operation.prepare()
-		operation.execute()
+		operation.isCancelled()
 		operation.pause()
 		
 		XCTAssertEqual(operation.rawState, .paused)
@@ -140,8 +129,7 @@ class ConcurrentOperationTests: XCTestCase {
 	func testResume() {
 		let operation = ConcurrentOperation()
 		
-		operation.prepare()
-		operation.execute()
+		operation.isCancelled()
 		operation.pause()
 		operation.resume()
 		

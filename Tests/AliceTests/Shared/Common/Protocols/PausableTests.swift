@@ -17,16 +17,6 @@ class PausableTests: XCTestCase {
 		("testPause", testPause),
 	]
 	
-	// MARK: Setup
-	
-    override func setUp() {
-		super.setUp()
-    }
-
-    override func tearDown() {
-		super.tearDown()
-    }
-	
 	// MARK: Functions tests
 	
 	func testPause() {
