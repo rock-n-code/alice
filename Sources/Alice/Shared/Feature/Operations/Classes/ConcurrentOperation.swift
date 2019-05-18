@@ -50,10 +50,10 @@ open class ConcurrentOperation: Operation {
 	
 	// MARK: Functions
 	
-	/// Checks if the operation is cancelled before starts its execution.
+	/// Stops the operation in case the operation has been cancelled before starts its execution.
 	///
 	/// - Note: Must be called at the beginning of the overriden `start()` function.
-	public final func isCancelled() {
+	public final func stopOrExecute() {
 		guard !isCancelled else {
 			finish()
 			return
