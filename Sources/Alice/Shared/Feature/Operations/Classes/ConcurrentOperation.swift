@@ -50,15 +50,10 @@ open class ConcurrentOperation: Operation {
 	
 	// MARK: Functions
 	
-	/// Stops the operation in case the operation has been cancelled before starts its execution.
+	/// Notifies the concurrent operation it will start its execution.
 	///
-	/// - Note: Must be called at the beginning of the overriden `start()` function.
-	public final func stopOrExecute() {
-		guard !isCancelled else {
-			finish()
-			return
-		}
-		
+	/// - Note: Must be called when the operation is ready to execute.
+	public final func executing() {
 		rawState = .executing
 	}
 
