@@ -17,9 +17,7 @@ class ConcurrentOperationTests: XCTestCase {
 	static var allTests = [
 		("testInit", testInit),
 		("testCancel", testCancel),
-		("testStopOrExecute", testStopOrExecute),
-		("testStopOrExecuteWhenCancelled", testStopOrExecuteWhenCancelled),
-		("testExecute", testExecute),
+		("testExecuting", testExecuting),
 		("testFinish", testFinish),
 		("testIsAsynchronous", testIsAsynchronous),
 		("testPause", testPause),
@@ -54,35 +52,10 @@ class ConcurrentOperationTests: XCTestCase {
 		XCTAssertTrue(operation.isCancelled)
 	}
 	
-	func testStopOrExecute() {
+	func testExecuting() {
 		let operation = ConcurrentOperation()
 		
-		operation.stopOrExecute()
-		
-		XCTAssertEqual(operation.rawState, .executing)
-		XCTAssertFalse(operation.isReady)
-		XCTAssertTrue(operation.isExecuting)
-		XCTAssertFalse(operation.isFinished)
-		XCTAssertFalse(operation.isCancelled)
-	}
-	
-	func testStopOrExecuteWhenCancelled() {
-		let operation = ConcurrentOperation()
-		
-		operation.cancel()
-		operation.stopOrExecute()
-		
-		XCTAssertEqual(operation.rawState, .finished)
-		XCTAssertFalse(operation.isReady)
-		XCTAssertFalse(operation.isExecuting)
-		XCTAssertTrue(operation.isFinished)
-		XCTAssertTrue(operation.isCancelled)
-	}
-	
-	func testExecute() {
-		let operation = ConcurrentOperation()
-		
-		operation.stopOrExecute()
+		operation.executing()
 		
 		XCTAssertEqual(operation.rawState, .executing)
 		XCTAssertFalse(operation.isReady)
@@ -114,7 +87,7 @@ class ConcurrentOperationTests: XCTestCase {
 	func testPause() {
 		let operation = ConcurrentOperation()
 		
-		operation.stopOrExecute()
+		operation.executing()
 		operation.pause()
 		
 		XCTAssertEqual(operation.rawState, .paused)
@@ -129,7 +102,7 @@ class ConcurrentOperationTests: XCTestCase {
 	func testResume() {
 		let operation = ConcurrentOperation()
 		
-		operation.stopOrExecute()
+		operation.executing()
 		operation.pause()
 		operation.resume()
 		
